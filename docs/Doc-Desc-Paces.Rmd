@@ -1,0 +1,126 @@
+---
+title: "Descriptivos univariados PACES"
+author: "Venegas, M"
+date: "12/11/2020"
+output:
+  html_document:
+    df_print: paged
+    theme: readable
+    toc: yes
+    toc_float: yes
+  pdf_document:
+    toc: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Presentación
+En este documento se presentan estadísticos descriptivos univariados acerca de los indicadores a utilizar en el articulo en proceso de elaboración, en el marco del Fondecyt Ciudadanía Equipo Legitimidad. Los indicadores a trabajar se enmarcan en la agenda de investigación de justicia distributiva, y especificamente, sobre preferencias y percepciones meritocraticas.
+
+En detalle, las baterías a utilizar de la encuesta PACES a estudiantes y apoderados son las siguientes:
+
+## Baterías compartidas
+
+### Tabla 1. Batería percepciones meritocraticas
+
+| Actualmente en Chile, para surgir en la vida ¿Cuán importante es... |
+|-------------------------------------------------------------------------|
+| a. Provenir de una familia rica o con recursos                          |
+| b. Tener un buen nivel de educación                                     |
+| c. Tener ambición                                                       |
+| d. El trabajo duro                                                      |
+
+**Nota:** Esta batería corresponde a la **P24** en el cuestionario de estudiantes y a la **P9** en el cuestionario de apoderados.
+
+Las respuestas de esta batería van de *Muy importante (4)* a *Nada importante (1)*, sin categoría intermedia.  
+
+### Tabla 2. Batería preferencias meritocraticas
+| ¿Cuán de acuerdo o en desacuerdo está usted con las siguientes afirmaciones?                                                             |
+|------------------------------------------------------------------------------------------------------------------------------------------|
+| a. Las diferencias económicas en Chile son demasiado grandes                                                                             |
+| b. Es responsabilidad del gobierno redcir las diferencias económicas entre las personas con altos ingresos y aquellas con bajos ingresos |
+| c. En el colegio/liceo de mi hijo/a los esfuerzos son recompensados                                                                      |
+| d. En Chile, los que se esfuerzan salen adelante                                                                                         |
+| e. Está bien que aquellos que pedan pagar más tengan mejor educación                                                                     |
+| f. Está bien qye aquellos que puedan pagar más tengan mejor acceso a salud                                                               |
+| g. Está bien que las personas más inteligentes y/o talentosas ganen más dinero, aun cuando requieran esforzarse menos para ello          |
+| h. En general, la inteligencia es algo que no cambia                                                                                     |
+| i. Se puede aprender nuevas cosas, pero no se puede cambiar la inteligencia de una persona                                               |
+**Nota:** Esta batería corresponde a la **P25** en el cuestionario de estudiantes y a la **P10** en el cuestionario de apoderados.
+
+**Nota:** La redacción del indicador **c.** corresponde a la versión del cuestionario de apoderados. En la versión para estudiantes la afirmación es la siguiente: _En este colegio/liceo los esfuerzos son recompensados._
+
+Las respuestas de esta batería van de *Muy de acuerdo (4)* a *Muy en desacuerdo (1)*, sin categoría intermedia.
+
+### Tabla 3. Batería de razones pobreza
+
+| ¿Con qué frecuencia las siguientes razones podrían ser la causa de la pobreza en Chile? |
+|-----------------------------------------------------------------------------------------|
+| a. Falta de habilidad o talento de las personas                                         |
+| b. Solo mala suerte                                                                     |
+| c. Falta de esfuerzo de los pobres                                                      |
+| d. Fallas del sistema económico                                                         |
+| e. Fallas del sistema educativo                                                         |
+
+**Nota:** Esta batería corresponde a la **P26** en el cuestionario de estudiantes y a la **P11** en el cuestionario de apoderados.
+
+Las respuestas de esta batería van de *Siempre (4)* a *Nunca (1)*, sin categoría intermedia.
+
+## Cuestionario a estudiantes
+
+### Tabla 4. Sentido de justicia en las notas
+
+| Indicadoras del sentido de justicia en notas                                                                   |
+|----------------------------------------------------------------------------------------------------------------|
+| 27. ¿Qué promedio de notas obtuviste el año pasado? Si no lo recuerdas exactamente, indica una nota aproximada |
+| 28. Y ¿Qué promedio de nota piensas que merecías?                                                              |
+| 29. Tomando en cuenta el tiempo que le dedico a mis estudios, las notas que me saco son...                     |
+| Menos de las que merezco                                                                                       |
+| Las que merezco                                                                                                |
+| Más de las que merezco                                                                                         |
+
+## Cuestionario apoderados
+
+### Tabla 5. Perceción ingresos liquidos de otros
+
+| 12. Quisieramos saber cuánto CREE usted que ganan las personas al mes, después de los descuentos de impuestos, salud, previsión y otros (ingreso liquido), en los siguientes trabajos que le voy a indicar. Muchas personas no están seguras al respecto, es muy importante que nos dé su visión ¿Cuánto cree usted que gana al mes...? |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Gerente de una gran empresa:**, empresas como Falabella, un gerente de CODELCO o gerente de Lider                                                                                                                                                                                                                                     |
+| **Obrero no calificado:**, obrero de una construcción, obrero de una fabrica, obrero de una panadería.                                                                                                                                                                                                                                  |
+
+### Tabla 6. Preferencias de ingresos liquidos de otros 
+
+| 13. Ahora, pensando en lo que usted cree que las personas en estos trabajos DEBERÍAN ganar al mes, después de los descuentos de impuestos, salud, previsión y otros (ingreso liquido). ¿Cuánto dinero cree usted que DEBIERA ganar al mes...? |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Gerente de una gran empresa:**, empresas como Falabella, un gerente de CODELCO o gerente de Lider                                                                                                                                           |
+| **Obrero no calificado:**, obrero de una construcción, obrero de una fabrica, obrero de una panadería.                                                                                                                                        |
+
+### Tabla 7. Estatus social subjetivo
+
+| Indicadores de Estatus Social Subjetivo                                                                                                                                                                                                                                                          |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 14. En nuestra sociedad, hay grupos que tienden a ubicarse en los niveles más altos y grupos que tienden a ubicarse en los niveles más bajos de la sociedad. Usando la escala presentada, donde 1 es el NIVEL MAS BAJO y 10 el NIVEL MAS ALTO ¿Dónde ubicaría la familia en la que usted creció? |
+| 15. Y pensando actualmente, ¿dónde cree que se ubicaría usted?                                                                                                                                                                                                                                   |
+| 16. Y pensando en el futuro, cuando sea adulto(a) ¿donde ubicaría a su hijo(a)?                                                                                                                                                                                                                  |
+
+# Descriptivos univariados
+
+```{r Tipical, echo=FALSE, message=FALSE, warning=FALSE}
+pacman::p_load(tidyverse, ggplot2, sjlabelled, summarytools, sjmisc, openxlsx, writexl, haven)
+
+load("ba_proc.RData")
+load("be_proc.RData")
+```
+
+### Tabla. Univariados estudiantes
+```{r Univariados Estudiantes, echo=FALSE, message=FALSE, warning=FALSE}
+print(dfSummary(be_proc, headings = FALSE), method = "render")
+```
+
+### Tabla. Univariados cuestionario apoderados
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+print(dfSummary(ba_proc, headings = FALSE), method = "render")
+```
+

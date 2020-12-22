@@ -1,0 +1,98 @@
+﻿La socialización de la meritocracia: el efecto de la familia y la escuela 
+Plantilla de preinscripción de AsPredicted.org
+¿Se han recopilado ya datos para este estudio?
+Los datos para este estudio fueron levantados mediante una encuesta aplicada en colegios entre agosto y diciembre del 2019. Los participantes del estudio son estudiantes (2° año educación media/secundaria), sus apoderados y profesores provenientes de la Región de Antofagasta (14 Establecimientos), la Región Metropolitana (35 Establecimientos) y la Región del Maule (15 Establecimientos). [a]Hasta el momento solo se han realizado análisis descriptivos de la muestra, sin recurrir a pruebas de bivariados o a pruebas de hipótesis. 
+
+
+¿Cuál es la pregunta principal o la hipótesis que se está probando en este estudio?
+La percepción de meritocracia se refiere a una constatación u observación personal sobre el funcionamiento de la meritocracia en la sociedad, entendida como que los recursos se distribuyen en base a mérito (esfuerzo y talento). En el caso específico de este estudio el interés principal es analizar las percepciones de estudiantes de 2do medio en Chile en relación a dos agentes de socialización: la familia y la escuela. Las hipótesis son las siguientes.
+H1. Padres con mayor percepción de meritocracia fomentan en sus hijos  una mayor percepción de meritocracia.
+H2. Los estudiantes que consideran que obtienen calificaciones justas en sus colegios poseen mayor percepción de meritocracia.
+H3. El efecto de la percepción de meritocracia de los padres sobre la percepción de meritocracia de los estudiantes se verá moderado por su sentido de justicia en las notas. 
+Adicionalmente se incorpora una hipótesis de medición sobre la percepción de meritocracia. 
+H4. Las percepciones meritocráticas serán una dimensión distinta de las percepciones no meritocráticas y no corresponden a los dos polos de un mismo concepto. 
+
+
+Describa la (s) variable (s) dependiente (s) clave (s) especificando cómo se medirán.
+La mayoría de las variables de este estudio son de tipo likert con alternativas del 1 al 4
+Las siguientes variables son prese[b][c][d]ntadas a padres y estudiantes.
+Percepción de distribución meritocrática:  
+·        “Cuán importante es para surgir en la vida: El trabajo duro”,  
+Desde Muy en desacuerdo (1) hasta Muy de acuerdo (4)
+·        “En Chile, los que se esfuerzan salen adelante”,
+Desde Muy en desacuerdo (1) hasta Muy de acuerdo (4)
+
+
+
+
+ 
+ 
+Las siguientes variables fueron preguntadas solo a estudiantes.
+Sentido de justicia en las notas medido indirectamente como brecha:
+¿Qué promedio de nota obtuviste el año pasado? Si no lo recuerdas exactamente, indica una nota aproximada. (Notas del 1 al 7).
+¿Qué promedio de nota piensas que merecías? (Notas del 1 al 7).
+Con ambas preguntas se construirá una brecha de evaluación de justicia en la nota. Dicha brecha se calculará dividiendo la nota obtenida en la nota merecida, basados en la función de evaluación de justicia de Jasso (1980) y las aplicaciones al ámbito educativo por parte de Resh y Sabbagh (2014; 2017; 2018).
+Adicionalmente se utilizará  tres pregunta que mide directamente el sentido de justicia:
+Tomando en cuenta el tiempo que le dedico a mis estudios, las notas que me saco son: Menos de las que merezco, Las que merezco o Más de las que merezco.
+agregar pregunta “en el colegio se recompensa el esfuerzo”
+
+
+Especifique exactamente qué análisis se realizará para examinar la pregunta / hipótesis principal.[e]
+En vista de la estructura jerarquizada de la base de datos se evaluarán las hipótesis utilizando regresiones multinivel con interceptos aleatorios. Considerando el nivel de medición ordinal de las variables se utilizarán regresiones logísticas ordinales. Para calcular los parámetros de la regresión logística ordinal multinivel se utilizara el paquete lme4 (Bates et al. 2015), más especificamente la función glmer. 
+El primer análisis es una regresión logística ordinal multinivel con las variables de los estudiantes sobre “Percepción de meritocracia” como dependiente y las mismas variables de los padres como predictor. Además se aplicarán los controles mencionados.  
+El segundo análisis es igualmente una regresión logística ordinal Multinivel con las variables de los estudiantes “Percepción de meritocracia” como dependiente y las evaluaciones de justicia en las notas como predictores. 
+El tercer análisis consiste en una interacción dentro de la regresión multinivel. La evaluación de las notas moderará el efecto de las percepciones meritocráticas de los padres sobre las percepciones meritocráticas de los hijos.
+
+
+
+
+
+
+
+
+
+
+¿Algún análisis secundario?
+
+
+Como análisis de robustez de los modelos multinivel, se realizará la prueba d-cook para detectar casos influyentes, contrastando posteriormente la relación con y sin ellos. En la misma línea se calcularán los dfbetas para cada predictor. Con el mismo objetivo, compararemos los ajustes de los modelos multinivel con los mismos modelos pero con las variables centradas al promedio del grupo, para evaluar que el efecto que señalamos como individual no se deba al contexto de la escuela. 
+
+
+
+¿Cuántas observaciones se recopilarán o que determinará el tamaño de la muestra? No es necesario justificar la decisión, pero sea preciso sobre cómo se determinará exactamente el número.
+Utilizamos una muestra representativa de escuelas para encuestar estudiantes de segundo medio (n = 1635), padres (n = 744) y profesores (n = 103) en 3 regiones Chilenas: Antofagasta (14 Establecimientos), la Región Metropolitana (35 Establecimientos) y la Región del Maule (15 Establecimientos).
+La muestra busca ser representativa de los distintos tipos de establecimientos (Particulares pagados, Particulares Subvencionados y Municipales). Del total de los casos que se estiman necesarios se superó el 90%, no obstante no se completó la muestra esperada. 
+La muestra proyecta un seguimiento longitudinal tipo panel de tres olas, es decir, se busca volver a encuestar a los mismos estudiantes, aunque sin repetir la encuesta para padres y profesores. No obstante tanto el estallido social de chile como la pandemia mundial dificultaron la recopilación de los datos. 
+
+
+  
+[f][g]
+
+
+
+
+¿Algo más que le gustaría inscribirse? (por ejemplo, exclusiones de datos, variables recopiladas con fines exploratorios, análisis inusuales previstos)
+
+
+Para las evaluaciones de validez de constructo los criterios utilizados son los propuestos por Brown (2008).
+
+
+Chi-square:> 0.05
+Chi-square ratio:> 3
+Comparative adjustment goodness index (CFI):> 0.95
+Tucker-Lewis Index (TLI):> 0.95
+Root of the average squared residual approximation <0.08.
+
+
+Para las regresiones multinivel, en miras del tamaño de la muestra se consideran significativas las relaciones con un p< 0,05. Para calcular el R2 de las relaciones se utilizara la técnicas de Bryk & Raudenbusch (1992). 
+
+
+
+
+[a]Creo que deberiamos explicitar que no se han hehco pruebas de hipotesis
+[b]mucho más claro si se presenta una tabla de variables, donde se puedan identificar además los conceptos referidos en las hipótesis
+[c]Estoy de acuerdo pero hasta ahora no se como ingresar tablas o imágenes en los preregistros de osf.
+[d]Estas tablitas las tengo en un documento rmd por si acaso
+[e]aquí me parece que lo más claro sería formalizar los modelos, y mejor pasarse a Markdown para poder usar mathjax
+[f]la imagen me parece confusa, ya que aparece destacada la ola 2
+[g]hay que sacarla o pasarse a rmd. Si pasamos a rmd la modifico.

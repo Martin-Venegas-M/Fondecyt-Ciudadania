@@ -1,0 +1,211 @@
+---
+title: "Pre-registration"
+output:
+  pdf_document:
+    keep_tex: no
+    template: null
+    number_sections: yes
+    toc: yes
+    latex_engine: xelatex
+  html_document:
+    toc: yes
+    df_print: paged
+geometry: margin=0.78in
+header-includes:
+- \usepackage{caption}
+- \captionsetup[figure, table]{labelfont={bf},labelformat={default},labelsep=period}
+- \usepackage{graphicx}
+- \usepackage{float}
+- \usepackage{booktabs}
+- \usepackage{longtable}
+- \usepackage{array}
+- \usepackage{multirow}
+- \usepackage{wrapfig}
+- \usepackage{float}
+- \usepackage{colortbl}
+- \usepackage{pdflscape}
+- \usepackage{tabu}
+- \usepackage{threeparttable}
+linestretch: '1.5'
+link-citations: yes
+linkcolor: blue
+---
+
+```{r eval=FALSE, include=FALSE}
+# for render in pdf run rmarkdown::render_site("docs/preanalisis.Rmd", output_format = "all")
+# clean #in the yml
+rmarkdown::render("docs/preanalisis.Rmd", output_format = "bookdown::pdf_document2")
+rmarkdown::render("docs/preanalisis.Rmd", output_format = "bookdown::html_document2")
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE,message = FALSE, cache = FALSE,out.width = '85%',fig.pos= "H")
+# knitr::opts_knit$set(base.url = "../") #relative path for .html output file
+# knitr::opts_knit$set(root.dir = "../") #relative path for chunks within .rmd files
+options(scipen=999)
+rm(list=ls())
+options(knitr.kable.NA = '')
+options(knitr.graphics.error = FALSE)
+Sys.setlocale("LC_ALL", "ES_ES.UTF-8")
+```
+
+```{r message=FALSE, warning=FALSE, include=FALSE, echo=FALSE}
+pacman::p_load(knitr, kableExtra, dplyr, lavaan)
+```
+
+```{r echo=FALSE }
+table_format = if(is_html_output()) {
+  "html"
+} else if(is_latex_output()) {
+  "latex"
+}
+table_format2 = if(is_html_output()) {
+  T
+} else if(is_latex_output()) {
+  F
+}
+```
+
+```{r eval=FALSE, echo=FALSE}
+# Para obtener doble output (html/pdf) correr directamente en consola/terminal:
+rmarkdown::render('production/index.rmd', output_format = 'all',output_dir = ".")
+```
+
+```{r include=FALSE}
+#Determine the output format of the document
+outputFormat   = knitr::opts_knit$get("rmarkdown.pandoc.to")
+
+#Figure and Table Caption Numbering, for HTML do it manually
+capTabNo = 1; capFigNo = 1;
+
+#Function to add the Table Number
+capTab = function(x){
+  if(outputFormat == 'html'){
+    x = paste0("Tabla ",capTabNo,". ",x)
+    capTabNo <<- capTabNo + 1
+  }; x
+}
+
+#Function to add the Figure Number
+capFig = function(x){
+  if(outputFormat == 'html'){
+    x = paste0("**","Figura ",capFigNo,": ","**",x)
+    capFigNo <<- capFigNo + 1
+  }; x
+}
+```
+
+# La socialización de la meritocracia: el efecto de la familia y la escuela 
+
+Plantilla de preinscripción de AsPredicted.org
+
+
+## ¿Se han recopilado ya datos para este estudio?
+Los datos para este estudio fueron levantados mediante una encuesta aplicada en colegios entre agosto y diciembre del 2019. Los participantes del estudio son estudiantes (2° año educación media/secundaria), sus apoderados y profesores provenientes de la Región de Antofagasta (14 Establecimientos), la Región Metropolitana (35 Establecimientos) y la Región del Maule (15 Establecimientos). Hasta el momento solo se han realizado análisis descriptivos de la muestra, sin recurrir a análisis bivariados o a pruebas de hipótesis. 
+
+
+## ¿Cuál es la pregunta principal o la hipótesis que se está probando en este estudio?
+La percepción de meritocracia se refiere a una constatación u observación personal sobre el funcionamiento de la meritocracia en la sociedad, entendida como que los recursos se distribuyen en base a mérito (esfuerzo y talento). En el caso específico de este estudio el interés principal es analizar las percepciones de estudiantes de 2do medio en Chile en relación a dos agentes de socialización: la familia y la escuela. Las hipótesis son las siguientes.
+
+
+- $H_1$ Padres con mayor percepción de meritocracia fomentan en sus hijos una mayor percepción de meritocracia.
+
+- $H_2$. Los estudiantes que sienten que obtienen calificaciones justas en sus colegios poseen mayor percepción de meritocracia.
+
+- $H_3$. El efecto de la percepción de meritocracia de los padres sobre la percepción de meritocracia de los estudiantes se verá moderado por su sentido de justicia en las notas. 
+
+
+## Describa la(s) variable(s) clave(s) especificando cómo se medirán.
+
+Las variables más revelantes para el estudio se muestran a continuación:
+
+```{r include=FALSE}
+cap <- "Items de acuerdo a conceptos y tipo de variable."
+# if (knitr::is_html_output()) {tb <- table_nums("tb",cap)} else {tb <- cap}
+```
+
+```{r table-indicadores, echo=FALSE}
+tab01 <- read.csv(file = "input/table01.csv",header = 1,sep = ";",encoding = "UTF-8")
+cnames <- c("Variable" , "Concepto", "Sujeto","Afirmación" , "Categorías de respuesta")
+kable(tab01,table_format,booktabs = T, linesep = "",col.names = cnames, caption = cap) %>%
+  kable_styling(
+    full_width = T,
+    latex_options = c("hold_position"),
+    position = "center",
+    font_size = 10,
+    bootstrap_options=c("striped", "bordered")) %>%
+  column_spec(column = 1, width = "1.5cm", ) %>%
+  column_spec(column = 2,width = "2 cm") %>%
+  collapse_rows(columns = 1:2,valign = "middle")
+```
+ 
+ 
+```{r, eval=FALSE, include=FALSE}
+tab01 <- read.csv(file = "input/table02.csv",header = 1,sep = ";",encoding = "UTF-8")
+cnames <- c("Variable" , "Concepto", "Sujeto","Afirmación(español)" , "Afirmación (inglés)")
+kable(tab01,table_format,booktabs = T, linesep = "",col.names = cnames, caption = cap) %>%
+  kable_styling(
+    full_width = T,
+    latex_options = c("hold_position"),
+    position = "center",
+    font_size = 10,
+    bootstrap_options=c("striped", "bordered")) %>%
+  column_spec(column = 1, width = "1.5cm", ) %>%
+  column_spec(column = 2,width = "2 cm") %>%
+  collapse_rows(columns = 1:2,valign = "middle")
+```
+
+La variable dependiente de este estudio es las percepción meritocrática de los estudiantes. Ests se medirá a partir de dos indicadores, uno respecto a la opinión del éxito y el esfuerzo, y otro respecto a la importancia del trabajo duro. Ambos indicadores corresponden a escalas Likert de cuatro categorías, midiendo grado de acuerdo y grado de importancia, respectivamente.
+
+Las variables independientes de este estudio pueden dividirse de acuerdo a si corresponden a padres o estudiantes. En el caso de los padres, los indicadores y categorías son idénticas a la variable dependiente. En el caso de los estudiantes, se utilizarán cuatro indicadores que buscan medir el sentido de justicia en la escuela de tres formas distintas. La primera forma corresponde a la construcción de una brecha a partir de los indicadores referentes al promedio obtenido y al promedio deseado. Dicha brecha se calculará en función de la formula de Jasso (1980), y siguiendo las aplicaciones al ámbito educativo por parte de Resh y Sabbagh (2014; 2017; 2018). La formula corresponde al logaritmo natural de la proporción entre la recompensa obtenida y la recompensa justa, en este caso las notas:
+
+$\text{Sentido de justicia en notas}= ln(\frac{\text{nota obtenida}}{\text{nota esperada}})$
+
+La segunda forma corresponde a la pregunta indirecta acerca si la nota obtenida es merecida de acuerdo al tiempo estudiado. La tercera forma es de carácter más general y hace alusión al sentimiento de recompensa de los esfuerzos en la escuela.
+
+## Especifique exactamente qué análisis se realizará para examinar la pregunta / hipótesis principal
+
+En vista de la estructura jerarquizada de la base de datos se evaluarán las hipótesis utilizando regresiones multinivel con interceptos aleatorios. Considerando el nivel de medición ordinal de las variables se utilizarán regresiones logísticas ordinales. ~~Para calcular los parámetros de la regresión logística ordinal multinivel se utilizara el paquete lme4 (Bates et al. 2015), más específicamente la función glmer~~. De acuerdo a lo planteado por [arfan_Ordinal_2017] la formula del modelo base es formalizada de la siguiente manera:
+
+$log\left(\frac{Pr(Y_{ij}≤c|X)}{Pr(Y_{ij}>c|X)}\right) = a_c + u_{oj}$
+
+Donde $Y_{cij}$ es una respuesta categorica ordenada de un individuo $i^{th}$ en un cluster $j^{th}$ con $C$ categorias ordenadas, codificadas como $C = 1,2.........,c$. Y en consiguiente, la probabilidad acumulada para una categoría ordenada hasta $c$ es $Pr(Y_{ij}≤c)$. La medición de los odds de $Y_{cij}$ estando en una categoría menor o igual a $C$ comparado con una categoría mayor que $C$, y siendo $u_{oj}$ el effecto aleatorio de nivel dos y que asume una distribución normal $N(0,\tau_0)$. El modelo que incluye variables explicativas es el siguiente:
+
+$log\left(\frac{Pr(Y_{ij}≤c|X)}{Pr(Y_{ij}>c|X)}\right) = a_c +X_{ij}\beta + u_{oj}$
+
+Donde $X_{ij}$ es la matriz de datos de predictores fijos, por ende, el efecto fijo $\beta$ es el mismo que para un modelo proporcional de odds simple.  
+
+Otra forma de formalizar:
+
+
+$F_j(x) = P(Y≤j|x)$
+
+$L_j(x) = logit(F_j(x)) = log(\frac{F_j(x)}{1-F_j(x)})$
+
+Modelo de regresión multiple:
+
+$L_j(x)=a_j-\beta_1x_1-\beta_2x_2-...-\beta_kx_k$
+
+El primer análisis es una regresión logística ordinal multinivel con las variables de los estudiantes sobre “Percepción de meritocracia” como dependiente y las mismas variables de los padres como predictor. Además se aplicarán los controles mencionados.  
+
+El segundo análisis es igualmente una regresión logística ordinal multinivel con las variables de los estudiantes *Percepción de meritocracia* como dependiente y las evaluaciones de justicia en las notas como predictores.  
+
+El tercer análisis consiste en una interacción dentro de la regresión multinivel. La evaluación de las notas moderará el efecto de las percepciones meritocráticas de los padres sobre las percepciones meritocráticas de los hijos.
+
+## ¿Algún análisis secundario?
+
+Como análisis de robustez de los modelos multinivel, se realizará la prueba d-cook para detectar casos influyentes, contrastando posteriormente la relación con y sin ellos. En la misma línea se calcularán los dfbetas para cada predictor. Con el mismo objetivo, compararemos los ajustes de los modelos multinivel con los mismos modelos pero con las variables centradas al promedio del grupo, para evaluar que el efecto que señalamos como individual no se deba al contexto de la escuela. 
+
+## ¿Cuántas observaciones se recopilarán o que determinará el tamaño de la muestra? No es necesario justificar la decisión, pero sea preciso sobre cómo se determinará exactamente el número.
+
+Utilizamos una muestra representativa de escuelas para encuestar estudiantes de segundo medio (n = 1635), padres (n = 744) y profesores (n = 103) en 3 regiones Chilenas: Antofagasta (14 Establecimientos), la Región Metropolitana (35 Establecimientos) y la Región del Maule (15 Establecimientos).
+
+La muestra es representativa de los distintos tipos de establecimientos (Particulares pagados, Particulares Subvencionados y Municipales). Del total de los casos que se estiman necesarios se superó el 90%, no obstante no se completó la muestra esperada.
+
+La muestra del proyecto está diseñada como un seguimiento longitudinal tipo panel de tres olas, es decir, se busca volver a encuestar a los mismos estudiantes, aunque sin repetir la encuesta para padres y profesores. Este estudio utiliza los datos de la primera ola (2019) de forma transversal.
+
+## ¿Algo más que le gustaría inscribirse? (por ejemplo, exclusiones de datos, variables recopiladas con fines exploratorios, análisis inusuales previstos)
+
+Para las regresiones multinivel, en miras del tamaño de la muestra se consideran significativas las relaciones con un p< 0,05. Para calcular el R2 de las relaciones se utilizara la técnicas de Bryk & Raudenbusch (1992). 
+
+
