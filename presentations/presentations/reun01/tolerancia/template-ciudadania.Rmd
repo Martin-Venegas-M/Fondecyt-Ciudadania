@@ -1,0 +1,60 @@
+---
+title: "Presentation Fondecyt Ciudadanía"
+author: "Anais Herrera y Kevin Carrasco"
+date: "2020/10/30 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+# Introducción
+* <p style="text-align: justify;"> Si bien hay varias investigaciones sobre las características de los estudiantes que se relacionan con sus actitudes hacia la igualdad de derechos (ej. Torney‐Purta, Wilkenfeld & Barber, 2008; Isac, Maslowski & Werf, 2012; Schulz, Ainley, Cox & Friedman, 2018; Miranda, Castillo & Cumsille, 2018) y sobre las características de la escuela que se relacionan con estas actitudes (ej. Schulz & Ainley, 2018; Maurissen, Barber & Claes, 2020; Torney‐Purta et.al, 2008; Villalobos, Treviño & Wyman, 2018), hay escasa literatura sobre la asociación entre las actitudes de los padres y las actitudes de sus hijos. </p>
+* <p style="text-align: justify;"> De hecho, los artículos relativos a la asociación de las actitudes de los apoderados y sus hijos refieren a actitudes prejuiciosas hacia inmigrantes (Meeusen & Dhont, 2015; Miklikowska, 2016), homosexuales, musulmanes y prejuicios sexistas (Meeusen & Dhont, 2015), actitudes anti inmigrantes (Miklikowska, 2017;  Miklikowska, Bohman & Titzmann, 2019) y actitudes hacia los inmigrantes en términos generales (Miklikowska, 2016). </p>
+---
+# Objetivos de investigación
+
+*Objetivo general* 
+* <p style="text-align: justify;"> Evaluar si la diversidad en el aula y la apertura a la discusión posee/n la capacidad de disminuir las diferencias en las actitudes hacia la igualdad de derechos de los jóvenes chilenos, producidas por características, prácticas y actitudes de la familia de los estudiantes (más específicamente, las características socioeconómicas, las actitudes de los apoderados hacia la igualdad de derechos y la frecuencia con que discuten sobre temas sociales y políticos).</p>
+---
+# Objetivos de investigación
+
+*Objetivos específicos*
+* <p style="text-align: justify;"> Establecer en qué medida las características socioeconómicas se relacionan con las actitudes de los jóvenes chilenos hacia la igualdad de derechos y con las las actitudes de los apoderados hacia la igualdad de derechos. </p>
+* <p style="text-align: justify;"> Establecer en qué medida las actitudes de los apoderados hacia la igualdad de derechos se relacionan con las actitudes de sus hijos hacia la igualdad de derechos. </p>
+* <p style="text-align: justify;"> Establecer en qué medida la frecuencia con que se discute sobre temas sociales y políticos en familia afecta la relación entre las actitudes de los apoderados hacia la igualdad de derechos y las actitudes de sus hijos hacia la igualdad de derechos. </p>
+* <p style="text-align: justify;"> Establecer en qué medida la diversidad en el aula y la apertura a la discusión se relacionan con las actitudes de los estudiantes hacia la igualdad de derechos. </p>
+* <p style="text-align: justify;"> Identificar el rol de la diversidad en el aula y la apertura a la discusión en la escuela como mitigadores (o no) de la intensidad de la relación entre las actitudes de los apoderados hacia la igualdad de derechos y las actitudes de sus hijos hacia la igualdad de derechos. </p>
+---
+# Conceptos Clave
+
+*Características individuales*
+* <p style="text-align: justify;"> Conocimiento cívico: influye sobre las actitudes de los estudiantes hacia la igualdad de derechos de inmigrantes (Torney-Purta, Wilkenfeld & Barber, 2008; Isac, Maslowski & van der Werf, 2012; De Groof, Elchardus, Franck & Kavadis, 2008), hacia la igualdad de género y la igualdad de derechos de grupos étnicos y raciales (Schulz & Ainley, 2018) y hacia la igualdad de derechos de personas homosexuales (Schulz, Ainley, Cox & Friedman, 2018; Miranda, Castillo & Cumsille, 2018). </p>
+* <p style="text-align: justify;"> Género: ser mujer influye positivamente en las actitudes hacia la igualdad de derechos de inmigrantes (Maurissen, Barber & Claes, 2018; Torney-Purta, Wilkenfeld & Barber, 2008; Isac, Maslowski & van der Werf, 2012; Miranda, Castillo & Cumsille, 2018; Farkač, Scott & Šerek, 2020; Michel & Blatter, 2020), hacia minorías étnicas (De Groof, Elchardus, Franck & Kavadis, 2008), hacia la igualdad de género, hacia la igualdad de derechos para todos los grupos étnicos y raciales (Schulz & Ainley, 2018; Miranda, Castillo & Cumsille, 2018) y hacia la igualdad de derechos de personas homosexuales (Schulz, Ainley, Cox & Friedman, 2018; Miranda, Castillo & Cumsille, 2018). </p>
+* <p style="text-align: justify;"> Condición de inmigración: Las personas inmigrantes tienden a tener una actitud positiva hacia la igualdad de derechos de inmigrantes (Villalobos, Treviño, Wyman & Béjares, 2018; Miranda, Castillo & Cumsille, 2018), hacia la igualdad de género y hacia la igualdad de derechos de grupos étnicos y raciales (Schulz & Ainley, 2018; Miranda, Castillo & Cumsille, 2018). </p>
+---
+*Características escolares*
+* <p style="text-align: justify;"> Apertura a la discusión en el aula: influye en las actitudes de los estudiantes hacia la igualdad de derecho de inmigrantes (Isac, Maslowski & van der Werf, 2012; De Groof, Elchardus, Franck & Kavadis, 2008; Torney-Purta, Wilkenfeld & Barber, 2008) y hacia la igualdad de derechos de inmigrantes, grupos étnicos y mujeres (Schulz & Ainley, 2018), mientras que Maurissen, Barber & Claes (2018) plantean que la apertura a la discusión dentro del aula no se asocia significativamente con las actitudes hacia la igualdad de derechos de los inmigrantes.  </p>
+* <p style="text-align: justify;"> Actitudes hacia la igualdad de derechos de los compañeros: las actitudes antiinmigrantes de los compañeros en general tendrían un efecto sobre las actitudes antiinmigrantes de los estudiantes (Miklikowska, 2017) y los cambios en estas actitudes antiinmigrantes de los compañeros durante el tiempo también afectan las actitudes de los estudiantes (Miklikowska, Bohman & Titzmann, 2019).
+. </p>
+* <p style="text-align: justify;"> Composición del aula: la presencia de estudiantes de diversos orígenes étnicos y/o raciales generarían un mayor apoyo hacia la tolerancia e igualdad de derechos para inmigrantes (Villalobos, Treviño, Wyman & Béjares, 2018; Gorodzeisky, Semyonov, 2009). </p>
+---
+*Características familiares*
+* <p style="text-align: justify;"> Antecedentes socioeconómicos: influyen sobre las actitudes hacia la igualdad de derechos de inmigrantes (Miranda, Castillo & Cumsille, 2018; Villalobos, Treviño, Wyman & Béjares, 2018; Isac, Maslowski & van der Werf, 2012) y sobre los cambios en las actitudes antiinmigrantes de los estudiantes (Miklikowska, 2017) y Schulz & Ainley (2018) señalan que no existe una relación significativa entre estos antecedentes y las actitudes hacia la igualdad de género y hacia los derechos de grupos étnicos. </p>
+* <p style="text-align: justify;"> Actitudes de los padres hacia la igualdad de derechos: Miklikowska (2016) señala que las actitudes de los padres logran influir en las actitudes de los hijos al transmitirles parte de sus creencias ante el prejuicio y tolerancia sobre inmigrantes. Miklikowska, Bohman & Titzmann (2019) enfatizan en que los padres afectan la formación de las actitudes antiinmigrantes de los adolescentes a través de la socialización activa a largo plazo y mediante la gestión del mudo social de sus hijos, sentado la base del prejuicio. </p>
+* <p style="text-align: justify;"> Frecuencia de discusión sobre temas políticos y sociales: Meeusen & Dhont (2015) incluyen que la similitud intergeneracional sobre el prejuicio hacia inmigrantes, musulmanes, homosexuales y mujeres está arraigada en las actitudes ideológicas de los padres y que el traspaso de actitudes prejuiciosas y hacia la tolerancia sobre estos grupos se acentúa según la frecuencia de la discusión sobre temas políticos y problemáticas sociales con sus hijos. </p>
+---
+# Modelo teórico
+![Modelo teórico](images/esquema.png)
+---
+
+class: center, middle
+
+# ¡Muchas gracias por su atención!
+
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
+
+The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).

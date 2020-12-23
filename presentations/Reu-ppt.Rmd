@@ -1,0 +1,156 @@
+---
+title: "Reunión Fondecyt Equipo Legitimidad: lecturas"
+subtitle: "Juan Carlos Castillo - Julio Iturra - Francisco Meneses - Martín Venegas"  
+author:
+date: '`r Sys.Date()`'
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: xaringan-themer.css
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#1381B0",
+  secondary_color = "#FF961C",
+  inverse_header_color = "#FFFFFF"
+)
+```
+
+
+
+---
+classs: center, inverse
+Textos:
+
+# Chory-Assad y Paulsel (2002): 
+
+The present study examined the **relations between students' perceptions of distributive and procedural justice in college classes and student aggression and hostility toward their instructors and resistance of their instructors' requests**. Although **perceptions of both distributive and procedural justice were negatively correlated with student aggression and hostility, hierarchical multiple regression analyses indicated that only perceptions of procedural justice predicted these two criterion variables**. The relationships between perceptions of justice and students' use of resistance strategies were less consistent. Hierarchical multiple regression analyses indicated that perceptions of procedural justice negatively predicted student revenge and deception. Contrary to predictions, perceptions of procedural and distributive justice did not interact to predict student aggression, hostility, or resistance. In short, students' perceptions of procedural justice in the classroom—for example that grades were distributed on the basis of fair evaluation criteria—appear more important than students' beliefs about the fairness of the assigned grade in determining student compliance and civility.
+
+---
+# Paulsel et al. (2006)
+
+The study investigated the relationships between student perceptions of instructor power and classroom justice. **Partial correlations controlling for student grade expectations indicated that student perceptions of their instructors’ use of coercive, legitimate, referent, and expert power were related to perceptions of fairness in the classroom**. Student perceptions of instructor use of reward power were not related to perceptions of any type of classroom justice.
+
+---
+# Sabaggh et al. (2006)
+
+This article **argues that there are distinct spheres of justice within education and examines a range of justice norms and distribution rules that characterize the daily life of schools and classrooms**. Moving from the macro to micro level, we identify the following five areas: the right to education, the allocation of (or selection into) learning places, teaching–learning practices, teachers’ treatment of students, and student evaluations of grade distribution. We discuss the literature on the beliefs by students and teachers about the just distribution of educational goods in these five domains, and on the practices used in the actual allocation of these goods. In line with normative ‘spheres of justice’ arguments in social theory, **we conclude that the ideals of social justice within schools vary strongly according to the particular resource to be distributed**. Moreover, these ideals often do not correspond with the practices that actually guide resource distribution in education, which may go some way toward explaining explicit or latent conflicts in this sphere.
+
+---
+# Resh (2008)
+
+**In this investigation I explore teachers’ perspectives on just grade allocation**. The study was carried out among language, math and science teachers in a national sample of Israeli high schools, where teachers were required to weigh a set of considerations that are used in the decision on grade allocation. Findings suggest that **(a) a teacher’s decision is based on a weighted combination of multi-principles of allocation**, **(b) equity by output (students proved academic success) is the ruling consideration**, and **(c) the weight given to the various considerations differ by teachers’ subject matter expertise**. The appeared difference placed science teachers vis-à-vis math and language teachers, unlike the expected humanities (language)—sciences (math and science) dichotomy. **Comparison of grading considerations by student capacity suggests that about half of the teachers consider differential grading considerations for “weak” and “strong” students as just**, attributing greater weight to academic input (effort) and need for encouragement when grading their “weak” students.
+
+---
+# Resh (2010) 
+
+Education is a distinct “sphere of justice” where resources and rewards (educational ’goods’) are being constantly distributed, and the fairness of their allocation is being evaluated, eliciting a sense of justice or injustice among the evaluators. A sense of (in)justice is a subjective perception of an individual that the reward s/he receives (actual reward) does not match the reward s/he thinks s/he deserves (just reward). This study investigates students’ sense of (in)justice about grades in school, focusing on two questions: (a) What is the level (intensity) of sense of injustice in three subjects: language, mathematics, science (b) Are students’ sense of (in)justice stratified by gender and SES, similar to the well known stratification of academic achievement? The study was carried out in Israel in conjunction with PISA international assessment in a national sample of 165 high schools among 4,500 15 year old students.
+
+---
+# Resh y Sabaggh (2014)
+
+Contending that justice experiences in school serve as a hidden curriculum that conveys messages about the wider society and impact student attitudes and behavior, we investigate the effects of students’ sense of distributive and (school) procedural justice on democratic-related attitudes: liberal democratic orientation (civil rights), social trust and institutional trust. The study was carried out among about 5,000 8th- and 9th-grade students in a national sample of 48 junior high schools in Israel in the 2010–2011 school year. The two-level data—individual and school—were analyzed by the hierarchical linear model (HLM7) program. Findings basically support our hypotheses: sense of distributive instrumental and, especially, of relational justice at school have a positive effect on liberal democratic orientation and on trust in people and in formal institutions. Furthermore, school (aggregate) sense of procedural justice adds to these positive effects and, in the case of democratic orientation, also interacts with instrumental justice and intensifies its effect on this outcome. However, these attitudes are also dependent on sectorial affiliation (Jewish secular, Jewish religious, Israeli–Arab), which explains a considerable portion of between-school variation in student attitudes.
+
+---
+# Resh y Sabaggh (2016)
+
+Resting on Walzer’s distinction of Spheres of Justice that defines education as a specific justice sphere, we discuss in this chapter five educational subspheres where resources and rewards (or sanctions) are being constantly distributed and their “fairness” is evaluated by its main beneficiaries—the students. The five spheres that we discuss are: access to education (and resource allocation to realize the access), allocation of learning places, allocation of teaching methods and pedagogy, grading, and teacher–student relations. Although education is a major domain of societal action in the modern world and “equality of educational opportunity,” which is clearly a justice slogan, leads the public interest and academic research, the clear approach to education as a distinct sphere of justice, much of the educational and academic discussions focused on “inequality” or “gaps,” and the investigation of sense of justice among students, teachers, and parents, is a relatively new field of study that is growing considerably in recent decades. Following Jasso’s definition of the central questions that guide investigation in the justice domain, our discussion in each of these subspheres is structured to deal with the “just,” the “actual,” and the “consequences” of injustice in their distribution, summarizing the theoretical discussion and empirical findings to best of our knowledge.
+
+---
+# Resh y Sabaggh (2017)
+
+Adult citizenship requires a gradual acquisition of political culture—knowledge, attitudes, skills and patterns of behavior necessary to engage in political action. This is especially the case in democratic societies, which are based on citizens’ participation. Hence, education for citizenship is uniformly considered as a major mission of the common school, along with its central task of imparting knowledge. In this paper we add to the abundant empirical work on the contributing factors to and behavioral consequences of civic education, focusing on the role of the students’ sense of justice in school. We refine previous approaches by distinguishing among three dimensions of the sense of justice, two pertaining to the distributive, and one to the procedural justice. We investigate the effects of these dimensions on four kinds of civic behavior relevant to school life: academic dishonesty, violence, extracurricular activity in school and community volunteering. The study was carried out among about 5000 Israeli middle school students (8th and 9th grades). Findings suggest that, overall, students who perceive their teachers as just tend to refrain from violence and to engage to a greater extent in extra-curricular school activity and community volunteering.
+
+---
+# Wanders et al. (2020)
+
+This article examines the role of teachers, parents, and friends in stimulating the development of societal interest among adolescents. It assesses the extent teachers can compensate for societal interest differences among adolescents that arise due to socioeconomic differences. The YeS panel study is used, with 587 students aged 13–18 assessed annually over a six-year period (2010–2015) and uses latent growth curve modeling (LGCM). Our findings indicate that awareness-raising by each of the three groups contributes to the development of societal interest among adolescents, with teachers being the most influential socializing agent. Teachers were more influential societal interest development among adolescents from less privileged homes, confirming our hypothesis that schools can compensate for societal interest differences.
+
+---
+# Ziemes et al. (2020)
+
+Trust in Political Institutions (TIPI) is important for political stability as well as political change. We integrate two theories into the conceptualisation of political socialisations of students with and without immigration backgrounds: The theory of social capital conceptualises trust as a generalisation of positive social relationships, whereas the theory of the critical citizen implies that institutions need knowledgeable and scrutinising citizens for democratic improvements. This paper investigates the role of the school setting for political socialisation concerning TIPI using weighted German data from the International Civic and Citizenship Education Study 2016 (N = 1451 students in 59 classes; 52% were girls; mean age was 14.29; 40% of participants had immigration backgrounds). Students with immigration backgrounds reported relatively worse social relationships and bestowed less TIPI compared to their peers without immigration backgrounds. As predicted by the theory of social capital, all groups of students bestowed more TIPI if they experienced positive relationships at school to a higher degree. A weaker predictive power of civic knowledge on TIPI for students with immigration background supports notions of the critical citizen. Results indicate that social relationships are relevant for the formation of TIPI of all students, while the role of civic knowledge varies between social groups.
+
+---
+# Hooghe et al. (2014a)
+
+There is a strong ongoing debate about the impact of higher education experiences on political attitudes and behaviours. While some authors assume a direct socialisation effect of educational experience, others have argued that education should be seen as a mere proxy variable for socio-economic status and pre-adult socialisation experiences. In this article we use a 5-year Belgian panel study that tracked respondents between the ages of 16 and 21. Using a hierarchical linear model of repeated measurements, we are able to demonstrate that differences with regard to political trust between future students and non-students are already present and stable at the age of sixteen. Significant determinants were school track and educational goal. The inclusion of actual educational status in the model (at age 21), however, rendered the relation with educational goal not significant. The results suggest that during secondary education students already anticipate and acquire a value pattern that is congruent with their future status. Ultimately, however, this effect is dependent on whether they actually enrol in higher education or not.
+
+
+---
+# Hooghe et al. (2014b)
+
+Various authors have claimed that citizenship norms have changed dramatically in contemporary societies. Recent research has studied the implications of Russell Dalton’s argument that duty-based citizenship norms (emphasizing voting and obeying the law) are being replaced by engaged citizenship norms (emphasizing self-expressive and non-institutionalized forms of participation). In this article we use the 2009 International Civic and Citizenship Education Survey (n=140,650) to ascertain the cross-national empirical validity of engaged and duty-based norms. By means of latent class analysis, we show that both of these citizenship norms are indeed adhered to by different groups of adolescents. We also show, however, that only half of the research population holds these two norms, while other more traditional norms are also identified. The findings confirm expectations that high-status respondents with low political trust are more likely to adhere to engaged norms, but the country-level findings contradict expectations: engaged norms are less prevalent in highly developed stable democracies, and this casts doubts on the hypothesis that new engaged citizenship norms are predominantly found in stable highly developed democracies.
+
+
+---
+# Abdelzadeh et al. (2014)
+
+The role of ‘fair’ institutions in developing democratic legitimacy has received increased attention. Citizens who perceive – on basis of past experiences – that they are being treated fairly by authorities have been held to have greater trust in political institutions. However, previous studies on the relationship between procedural fairness and political trust have not paid sufficient attention to individuals with limited first-hand experiences of authorities. We examine the relationship on an authority that virtually all individuals meet early in life: the school. Using structural equation modeling on unique panel data covering 1500 Swedish adolescents (ages ranging from 13 to 17), we find a reciprocal relationship: personal encounters with school authorities shape young people’s political trust; however, the images that adolescents get of the political system (through family, peers, media and so on) have also consequences on their perceptions about the authorities they encounter in their daily lives. The analysis increases our understanding of how individuals form their political allegiances by showing that the relationship between fairness and trust is more dynamic than has previously been suggested: neither an accumulated set of experiences of authorities nor formal ties with political institutions (as voters and so on) are required for a relationship to emerge.
+
+
+
+---
+# Wang (2016)
+
+The changing trust that Chinese students who study in Taiwan exhibit toward the Chinese government is a critical, but rarely explored topic, which is crucial for maintaining the sovereignty of Taiwan. I conducted a panel study and adopted a political socialization approach, proposing and verifying five hypotheses based on the theories of cognitive dissonance, assimilation, social contact, and social identity. The results indicate that compared with the average score for political trust that Chinese students exhibit at the time of arrival in Taiwan, the scores obtained four months later significantly declined by 0.09. Specifically, 50% of students exhibited a decreased level of political trust, whereas 33% exhibited an increased level of trust. The regression model developed in this study explains 23.6% of the variance in the changes in the political trust of Chinese students studying in Taiwan. In addition, five hypotheses were empirically supported.
+
+
+---
+# Maurissen et al. (2018)
+
+Schools are expected to contribute to preparing students for engaged citizenship. Research shows that open classroom discussions on political issues have a positive effect on political attitudes and behaviour. However, a deeper understanding of why students perceive their classrooms as open for discussion is missing. The purpose of this study is to examine how deliberative democratic theory can be used to explain such perceptions. We argue that the openness of the discussion climate is positively affected by, on the one hand, a context of good student–teacher relations characterised by fairness and respect, and, on the other hand, by the level of collective efficacy, which is the perception of responsiveness of the school towards student demands. Using multilevel analyses on the European data of the International Civic and Citizenship Education Study (ICCS 2009), we find that these predictors are significant at the student level and the school level. This means that both the individual experience of a student as well as the average school’s score on good student–teacher relations and collective efficacy affect how students perceive the discussion climate. Our findings, based on high-quality survey data from 22 countries, are a significant contribution to clarifying the underlying mechanism leading to an open classroom climate. As such discussions have proven to be an effective way to stimulate political engagement, we conclude that a school context characterised by fairness and responsiveness, should not be overlooked by schools and policy.
+
+---
+# Mameli et al. (2019)
+
+Background
+Notwithstanding the emphasis on the idea that students should be actively and accountably engaged in their educational pathways, little research has investigated learners’ agentic behaviours that take the form of student resistance to adult authority.
+
+Aims
+This paper presents an experimental study aimed to assess whether, and to what extent, student Self and Other resistant agency depends on perceptions of teacher justice and student achievement.
+
+Methods
+Participants were asked to read one of four scenarios concerning a generic student asking for the possibility to retake a test she/he had previously failed, with an experimental design including two levels of teacher justice × 2 levels of academic achievement. Then, they answered two items regarding the likelihood of protest on the part of the student depicted in the scenario and enforced by themselves in having to deal with a similar situation.
+
+Results
+The multilevel analysis indicated a principal effect of justice and target, with resistant agency rated as more likely in the unjust condition and for the Other. The justice effect was further qualified by an interaction with the achievement level, with resistant agency higher in the unjust and low achievement condition. Finally, a three‐way interaction appeared, with Self resistant agency higher in the just and high achievement condition.
+
+Conclusions
+These results are discussed in terms of their implications for teacher practices, as they emphasize the importance just learning environments have in allowing students to express their opinions as well as dissent.
+
+---
+# Reichert et al. (2019)
+
+Democracies rely upon politically knowledgeable citizens for their legitimacy and to sustain themselves. In Australia, policy initiatives have addressed concerns about the low levels of political knowledge among young people. Yet research about how young Australians acquire political knowledge, beyond schools, is scarce. The present study referring to the concepts of situated learning, self-determination and knowledge gap, asks whether young adult’s participatory practices (e.g., participation in politics, prior involvement in decision-making at school) predict political knowledge. Analyses that control for multiple predictors of political knowledge suggest differential associations between political knowledge and different participatory practices. Motivational inequality, as defined by interest in politics, moderates the associations with party-political participation and participation at school; the conditional effect of party-related political participation is further moderated by educational resources. Gendered differences are identified for some participatory practices. Directions for future research and the importance of participatory experiences and how to establish a foundation of young citizens’ political knowledge are discussed.
+
+
+---
+# Quaynor (2015)
+
+---
+# Ho (2012)
+
+---
+# Llewellyn (2010)
+
+
+
+
+
+
+---
+class: inverse, center, middle
+
+
+---

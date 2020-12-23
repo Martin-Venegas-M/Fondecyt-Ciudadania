@@ -1,16 +1,20 @@
 ---
-title: "Pre-registration"
+title: "La socialización de la meritocracia: el efecto de la familia y la escuela"
+subtitle: "Pre-registro"
+author: "Juan Carlos Castillo, Francisco Meneses, Martín Venegas & Julio Iturra"
+date: "22 de diciembre, 2020"
+csl: "input/bib/apa.csl"
+geometry: margin=0.78in
 output:
   pdf_document:
     keep_tex: no
     template: null
-    number_sections: yes
-    toc: yes
+    number_sections: no
+    toc: no
     latex_engine: xelatex
   html_document:
-    toc: yes
+    toc: no
     df_print: paged
-geometry: margin=0.78in
 header-includes:
 - \usepackage{caption}
 - \captionsetup[figure, table]{labelfont={bf},labelformat={default},labelsep=period}
@@ -26,14 +30,19 @@ header-includes:
 - \usepackage{pdflscape}
 - \usepackage{tabu}
 - \usepackage{threeparttable}
-linestretch: '1.5'
+linestretch: '1'
 link-citations: yes
 linkcolor: blue
+fontsize: 12pt
+font-family: Times New Roman
+bibliography: input/bib/zlibrary.bib
+
 ---
 
 ```{r eval=FALSE, include=FALSE}
 # for render in pdf run rmarkdown::render_site("docs/preanalisis.Rmd", output_format = "all")
 # clean #in the yml
+library(citr)
 rmarkdown::render("docs/preanalisis.Rmd", output_format = "bookdown::pdf_document2")
 rmarkdown::render("docs/preanalisis.Rmd", output_format = "bookdown::html_document2")
 ```
@@ -94,9 +103,6 @@ capFig = function(x){
   }; x
 }
 ```
-
-# La socialización de la meritocracia: el efecto de la familia y la escuela 
-
 Plantilla de preinscripción de AsPredicted.org
 
 
@@ -114,6 +120,7 @@ La percepción de meritocracia se refiere a una constatación u observación per
 
 - $H_3$. El efecto de la percepción de meritocracia de los padres sobre la percepción de meritocracia de los estudiantes se verá moderado por su sentido de justicia en las notas. 
 
+\pagebreak
 
 ## Describa la(s) variable(s) clave(s) especificando cómo se medirán.
 
@@ -125,7 +132,7 @@ cap <- "Items de acuerdo a conceptos y tipo de variable."
 ```
 
 ```{r table-indicadores, echo=FALSE}
-tab01 <- read.csv(file = "input/table01.csv",header = 1,sep = ";",encoding = "UTF-8")
+tab01 <- read.csv(file = "input/other/table01.csv",header = 1,sep = ";",encoding = "UTF-8")
 cnames <- c("Variable" , "Concepto", "Sujeto","Afirmación" , "Categorías de respuesta")
 kable(tab01,table_format,booktabs = T, linesep = "",col.names = cnames, caption = cap) %>%
   kable_styling(
@@ -138,59 +145,35 @@ kable(tab01,table_format,booktabs = T, linesep = "",col.names = cnames, caption 
   column_spec(column = 2,width = "2 cm") %>%
   collapse_rows(columns = 1:2,valign = "middle")
 ```
- 
- 
-```{r, eval=FALSE, include=FALSE}
-tab01 <- read.csv(file = "input/table02.csv",header = 1,sep = ";",encoding = "UTF-8")
-cnames <- c("Variable" , "Concepto", "Sujeto","Afirmación(español)" , "Afirmación (inglés)")
-kable(tab01,table_format,booktabs = T, linesep = "",col.names = cnames, caption = cap) %>%
-  kable_styling(
-    full_width = T,
-    latex_options = c("hold_position"),
-    position = "center",
-    font_size = 10,
-    bootstrap_options=c("striped", "bordered")) %>%
-  column_spec(column = 1, width = "1.5cm", ) %>%
-  column_spec(column = 2,width = "2 cm") %>%
-  collapse_rows(columns = 1:2,valign = "middle")
-```
 
-La variable dependiente de este estudio es las percepción meritocrática de los estudiantes. Ests se medirá a partir de dos indicadores, uno respecto a la opinión del éxito y el esfuerzo, y otro respecto a la importancia del trabajo duro. Ambos indicadores corresponden a escalas Likert de cuatro categorías, midiendo grado de acuerdo y grado de importancia, respectivamente.
+La variable dependiente de este estudio es la percepción meritocrática de los estudiantes. Esta se medirá a partir de dos indicadores, uno respecto a la opinión del éxito y el esfuerzo, y otro respecto a la importancia del trabajo duro. Ambos indicadores corresponden a escalas Likert de cuatro categorías, midiendo grado de acuerdo y grado de importancia, respectivamente.
 
-Las variables independientes de este estudio pueden dividirse de acuerdo a si corresponden a padres o estudiantes. En el caso de los padres, los indicadores y categorías son idénticas a la variable dependiente. En el caso de los estudiantes, se utilizarán cuatro indicadores que buscan medir el sentido de justicia en la escuela de tres formas distintas. La primera forma corresponde a la construcción de una brecha a partir de los indicadores referentes al promedio obtenido y al promedio deseado. Dicha brecha se calculará en función de la formula de Jasso (1980), y siguiendo las aplicaciones al ámbito educativo por parte de Resh y Sabbagh (2014; 2017; 2018). La formula corresponde al logaritmo natural de la proporción entre la recompensa obtenida y la recompensa justa, en este caso las notas:
+Las variables independientes de este estudio pueden dividirse de acuerdo a si corresponden a padres o estudiantes. En el caso de los padres, los indicadores y categorías son idénticas a la variable dependiente. En el caso de los estudiantes, se utilizarán dos indicadores que buscan medir el sentido de justicia en las notas de. El primer indicador corresponde al reporte del estudiante sobre su nota promedio obtenida, y el segundo indicador corresponde al reporte sobre la nota esperada. A partir de estos indicadores se utilizará la formula de @jasso_New_1980 sobre la evaluación de justicia, siguiendo las aplicaciones al ámbito educativo por parte de @resh_Sense_2014, @resh_Sense_2017, @resh_Sense_2018. La formula corresponde al logaritmo natural de la proporción entre la recompensa obtenida y la recompensa justa, en este caso las notas:
 
 $\text{Sentido de justicia en notas}= ln(\frac{\text{nota obtenida}}{\text{nota esperada}})$
 
-La segunda forma corresponde a la pregunta indirecta acerca si la nota obtenida es merecida de acuerdo al tiempo estudiado. La tercera forma es de carácter más general y hace alusión al sentimiento de recompensa de los esfuerzos en la escuela.
+\pagebreak
 
 ## Especifique exactamente qué análisis se realizará para examinar la pregunta / hipótesis principal
 
-En vista de la estructura jerarquizada de la base de datos se evaluarán las hipótesis utilizando regresiones multinivel con interceptos aleatorios. Considerando el nivel de medición ordinal de las variables se utilizarán regresiones logísticas ordinales. ~~Para calcular los parámetros de la regresión logística ordinal multinivel se utilizara el paquete lme4 (Bates et al. 2015), más específicamente la función glmer~~. De acuerdo a lo planteado por [arfan_Ordinal_2017] la formula del modelo base es formalizada de la siguiente manera:
+En vista de la estructura jerarquizada de la base de datos y considerando el nivel de medición ordinal de las variables se utilizarán regresiones logísticas ordinales multinivel. En base a las formalización de @arfan_Ordinal_2017 se propone el siguiente modelo general:
 
-$log\left(\frac{Pr(Y_{ij}≤c|X)}{Pr(Y_{ij}>c|X)}\right) = a_c + u_{oj}$
-
-Donde $Y_{cij}$ es una respuesta categorica ordenada de un individuo $i^{th}$ en un cluster $j^{th}$ con $C$ categorias ordenadas, codificadas como $C = 1,2.........,c$. Y en consiguiente, la probabilidad acumulada para una categoría ordenada hasta $c$ es $Pr(Y_{ij}≤c)$. La medición de los odds de $Y_{cij}$ estando en una categoría menor o igual a $C$ comparado con una categoría mayor que $C$, y siendo $u_{oj}$ el effecto aleatorio de nivel dos y que asume una distribución normal $N(0,\tau_0)$. El modelo que incluye variables explicativas es el siguiente:
-
-$log\left(\frac{Pr(Y_{ij}≤c|X)}{Pr(Y_{ij}>c|X)}\right) = a_c +X_{ij}\beta + u_{oj}$
-
-Donde $X_{ij}$ es la matriz de datos de predictores fijos, por ende, el efecto fijo $\beta$ es el mismo que para un modelo proporcional de odds simple.  
-
-Otra forma de formalizar:
+$log\left(\frac{Pr(Y_{ij}≤c)}{Pr(Y_{ij}>c)}\right)= a_c+\gamma_{1}Perc.MeritocraciaPadres_{ij}*\gamma_2SentidoJusticiaNotas_{ij}+\gamma_nControles_{ij}+u_{j}$
 
 
-$F_j(x) = P(Y≤j|x)$
+El modelo general representa el cálculo de la probabilidad acumulada de que un estudiante responda hasta $C$ en los indicadores de percepción de meritocracia, siendo $Y_{cij}$ una respuesta categórica ordenada de un estudiante $i^{th}$ en una escuela (cluster) $j^{th}$ con $C$ categorías ordenadas, codificadas como $C = 1,2,3,4$. Esta probabilidad se calcula en función de: el intercepto por cada categoría $a_c$, los coeficientes $\gamma_1$ y $\gamma_2$ para la percepción de meritocracia de los padres y el sentido de justicia en las notas respectivamente, $\gamma_n$ para las variables de control y $u_j$ como termino de error para una escuela $j$. Mediante la multiplicación entre $\gamma_1$ y $\gamma_2$, la formula expresa una interacción entre percepción meritocrática de los padres y el sentido de justicia en las notas, de modo tal que la fuerza transmisión de ideas meritocracias puede ser disminuida por experiencias como la sensación de injusticia en las notas. En suma, el modelo busca calcular la incidencia de la percepción meritocrática de los padres y el sentido de justicia en las notas, en la percepción meritocrática de los estudiantes.
 
-$L_j(x) = logit(F_j(x)) = log(\frac{F_j(x)}{1-F_j(x)})$
+La construcción del modelo general se hará por partes. El primer modelo solamente incluirá el coeficiente $\gamma_1$ para la percepción meritocrática de los padres. El segundo modelo añadirá $\gamma_2$ para controlar por el sentido de justicia en las notas. El tercer modelo corresponde al modelo general, añadiendo $\gamma_n$ para los controles y la interacción $\gamma_1*\gamma_2$. Este procedimiento se realizará para cada indicador de la percepción meritocrática de los estudiantes.
 
-Modelo de regresión multiple:
+La correlación intra clase (ICC) para una variable dependiente ordinal se calculará siguiendo a (Snijder and Bosker en @arfan_Ordinal_2017:
 
-$L_j(x)=a_j-\beta_1x_1-\beta_2x_2-...-\beta_kx_k$
+$ICC = \frac{\tau_0}{\tau_0 + 3.29}$
 
-El primer análisis es una regresión logística ordinal multinivel con las variables de los estudiantes sobre “Percepción de meritocracia” como dependiente y las mismas variables de los padres como predictor. Además se aplicarán los controles mencionados.  
+Siendo $\tau_0$ el termino de error de la varianza de nivel dos, y 3.29 la varianza de una distribución logistica estandar.
 
-El segundo análisis es igualmente una regresión logística ordinal multinivel con las variables de los estudiantes *Percepción de meritocracia* como dependiente y las evaluaciones de justicia en las notas como predictores.  
+El ánalisis se llevará a cabo con R version 4.0.3 "Bunny-Wunnies Freak Out", utilizando el paquete *mvord* desarrollado por @hirk_mvord_2020 para regresiones logísticas ordinales multinivel.
 
-El tercer análisis consiste en una interacción dentro de la regresión multinivel. La evaluación de las notas moderará el efecto de las percepciones meritocráticas de los padres sobre las percepciones meritocráticas de los hijos.
+\pagebreak
 
 ## ¿Algún análisis secundario?
 
@@ -198,14 +181,21 @@ Como análisis de robustez de los modelos multinivel, se realizará la prueba d-
 
 ## ¿Cuántas observaciones se recopilarán o que determinará el tamaño de la muestra? No es necesario justificar la decisión, pero sea preciso sobre cómo se determinará exactamente el número.
 
-Utilizamos una muestra representativa de escuelas para encuestar estudiantes de segundo medio (n = 1635), padres (n = 744) y profesores (n = 103) en 3 regiones Chilenas: Antofagasta (14 Establecimientos), la Región Metropolitana (35 Establecimientos) y la Región del Maule (15 Establecimientos).
+Utilizamos una muestra representativa de escuelas para encuestar estudiantes de segundo medio (n = 1635), padres (n = 744) y profesores (n = 103) en 3 regiones Chilenas: Antofagasta (14 Establecimientos), la Región Metropolitana (35 Establecimientos) y la Región del Maule (15 Establecimientos). La muestra es representativa de los distintos tipos de establecimientos (Particulares pagados, Particulares Subvencionados y Municipales). Del total de los casos que se estiman necesarios se superó el 90%, no obstante no se completó la muestra esperada.
 
-La muestra es representativa de los distintos tipos de establecimientos (Particulares pagados, Particulares Subvencionados y Municipales). Del total de los casos que se estiman necesarios se superó el 90%, no obstante no se completó la muestra esperada.
+La muestra del proyecto está diseñada como un seguimiento longitudinal tipo panel de tres olas (Figura 1), es decir, se busca volver a encuestar a los mismos estudiantes, aunque sin repetir la encuesta para padres y profesores. Este estudio utiliza los datos de la primera ola (2019) de forma transversal.
 
-La muestra del proyecto está diseñada como un seguimiento longitudinal tipo panel de tres olas, es decir, se busca volver a encuestar a los mismos estudiantes, aunque sin repetir la encuesta para padres y profesores. Este estudio utiliza los datos de la primera ola (2019) de forma transversal.
+\pagebreak
 
 ## ¿Algo más que le gustaría inscribirse? (por ejemplo, exclusiones de datos, variables recopiladas con fines exploratorios, análisis inusuales previstos)
 
-Para las regresiones multinivel, en miras del tamaño de la muestra se consideran significativas las relaciones con un p< 0,05. Para calcular el R2 de las relaciones se utilizara la técnicas de Bryk & Raudenbusch (1992). 
+Para las regresiones multinivel, en miras del tamaño de la muestra se consideran significativas las relaciones con un p< 0,05. Para calcular el R2 de las relaciones se utilizara la técnicas de @bryk_Hierarchical_1992.  
+![](input/images/muestra.png)
+
+###### Figura 1. Esquematización de muestreo por olas.
+
+\pagebreak
+
+## Referencias
 
 

@@ -1,0 +1,42 @@
+---
+title: "Participación política de la juventud chilena: incidencia de la socialización política parental y el rol de la escuela"
+author: "Julio César Iturra, Daniel Miranda, Brian Montenegro & Karen Sepúlveda"
+date: "2020/30/10"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+# Introducción
+### - Conformación del Equipo de Trabajo
+### - Lineamientos generales de la investigación
+---
+# Conceptos Clave
+### - Participación política (Hartung, 2017; Diemer 2012; Levy & Akiva, 2019; Miranda et al., 2017; Quintelier, 2008; Quintelier, 2011; Quntelier, 2015).
+### - Socialización política parental (McIntosh et al., 2007; McFarland and Thomas, 2006; Quintelier, 2013; Schlozman et al., 2012; Verba el al., 2003).
+### - El rol de la escuela (Ascorra, 2016; Hoskins et al., 2011; Hoskins et al., 2016; Muñoz-Tamayo, 2019; Aguilera, 2006, Zarzuri, 2006; Castillo et al., 2014; Navarrete, 2008; Quintelier, 2013; Neundorf, 2016; Hartung, 2017) 
+---
+![Esquema de Participación Política](Presentacion/Esquema)
+---
+# Preguntas de Investigación
+##### 1. ¿En qué medida la socialización política parental incide en la participación política de los jóvenes chilenos?
+##### 2. ¿En qué medida la socialización política parental incide en la participación política de los jóvenes chilenos de distintos estratos socioeconómicos?
+##### 3. ¿Qué papel juega la escuela como mitigador o regulador de las desigualdades de origen en la participación política de los jóvenes chilenos?
+---
+# Plan de análisis
+#### - Etapa inicial: operacionalización de los conceptos de participación, familia y escuela.
+#### - Etapa de análisis descriptivo: construcción de tablas a partir de las variables identificadas en la base de datos de la encuesta PACES.
+#### - Etapa de análisis relacional: análisis estadístico de la incidencia de la socialización política en la participación y el rol de la escuela en esa relación.
+---
+
+class: center, middle
+
+# Agradecimientos!
+
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
+
+The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).

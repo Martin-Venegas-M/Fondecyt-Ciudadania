@@ -1,0 +1,185 @@
+---
+title: "Documento de reunión: sintesis y directrices"
+author: "Venegas, M & Meneses, F"
+date: "16/11/2020"
+output:
+  pdf_document:
+    toc: yes
+  html_document:
+    df_print: paged
+    theme: readable
+    toc: yes
+    toc_float: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Presentación
+Este documento resume la reunión efectuada entre Francisco Menses y Martín Venegas con respecto a la estructuración del Long Absract y futuro articulo.
+
+## Sintesis
+
+1. Sobre el producto esperado 
+
+1.1 Para el viernes de esta semana se espera tener el *Long Abstract* listo para hacer el pre-registro.  
+
+2. Sobre la estructuración del documento  
+
+2.1 Hay puntos que ameritan ser discutidos con el equipo, en particular:  
+- Concepto principal (¿legitimidad?)  
+- Clarificar aportes  
+- Pilar argumentativo para los aportes ¿por qué es importante lo que vamos a hacer?   
+
+2.2 Se plantea una estructuración de la introducción y los antecedentes. La introducción se propone en 4 parrafos (Llamar la atención - Lo que se sabe - Lo que no se sabe - Aporte), y los antecedentes se estructuran en los dos temas principales (Justicia distributiva - Socialización política).  
+
+2.3 Se listan los objetivos y se clasifican como especificos. Se proponen objetivos generales.
+
+2.4 Se listan las hipotesis para discutirlas en profudidad. Su redacción se cruza con la discusión acerca del concepto principal.  
+
+2.5 Se listan las variables/conceptos principales.
+
+## Detalle
+
+### *Sobre la discusión del concepto principal:*
+
+Hay que discutir dos cosas:
+
+1. ¿Qué conceptos representan los indicadores que tenemos en la encuesta?
+
+La primera respuesta son los conceptos de: **Percepciones** y **Preferencias**
+
+2. ¿Usamos esos conceptos para la escritura o lo englobamos en uno más general?
+
+Esta pregunta está pensada para la redacció en general, pero explicitamente para las hipotesis. Por ejemplo:
+
+H1-A: Altos niveles de **justificación de la desigualdad** se relacionan con un bajo nivel socioeconómico de los padres. 
+
+o
+
+H1-B: Mayores **preferencias y percepciones meritocráticas** se relacionan con un bajo nivel socioeconómico de los padres. 
+
+3. En caso de que sí, ¿Cual concepto paraguas puede representar los argumentos?
+
+- ¿Creencias meritocracias?  
+- ¿Legitimación del sistema distributivo?  
+- ¿Justificación de la desigualdad?  
+- ¿Opiniones de distribución?  
+
+A tener en consideración para la discusión:  
+
+En los datos, tenemos indicadores para hablar de:  
+- preferencias sobre la desigualdad y  
+- percepciones meritocraticas,  
+
+pero no tenemos:   
+- preferencias meritocráticas ni  
+- percepciones por la desigualdad.  
+
+### *Sobre el aporte de nuestro articulo*
+
+A continuación presenta el proceso de reflexión para elaborar el argumento principal:
+
+Contexto: El Fondecyt se trata de socialización política.
+
+En la linea del fondecyt: lo que estamos haciendo es contrastar efecto familia efecto escuela.
+
+En este caso:  
+- *Efecto familia:* opiniones/creencias/preferencias/percepciones padres  
+- *Efecto escuela:* experiencia justicia en la escuela
+
+Y lo que estamos haciendo nosotros es hacer esta comparación, *pero no explicitamente con socialización política*, sino que con **socialización de opiniones de distribución**
+
+O más sofisticado: Transmisión generacional de opiniones en distribución.
+
+No obstante, la pregunta es:
+
+**¿Por qué es importante conocer quién impacta más en las opiniones sobre distribución?**
+
+Un posible argumento pilar se puede sintetizar en la siguiente pregunta:
+
+**¿Cómo formamos ciudadanos que estén dispuestos a ayudarse entre sí?**: Solidaridad (Generalmente la meritocracia tiene un efecto negativo)
+
+Nuestro argumento bajo este pilar argumentativo sería:
+
+**Comprender como se forman  las opiniones sobre distribución de los jovenes es importante porque puede ayudar a formar ciudadanos más solidarios y acordes a los principios del desarrollo sostenible.**
+
+Esta linea de argumentativa tiene el siguiente supuesto: los jovenes no son ciudadanos aun, sino que esta están en formación.
+
+¿Cómo nos hacemos cargo de ese argumento?
+
+Respuesta tipo legal: legalmente en Chile los jovenes no son ciudadanos.
+
+Nota aparte (gatilladora de reflexión)
+La respuesta [a la pregunta de estudiar agentes de socialziación] que se daría desde el fondecyt sería la siguiente:
+
+
+Si es que existe una transmisión intergenracional de la desigualdad política, la relevancia de la comparaciones es ver si la escuela puede mitigar el efecto.
+
+### *Sobre los objetivos*
+
+Para tener una idea general de hacia donde va el trabajo, se listan los objetivos del trabajo. Se categorizan como especificos y se proponen objetivos generales. Hay que estructurarlos.
+
+- OG1: Comparar la influencia de las creencias de los padres y la experiencia de justicia en la escuela en la formación de creencias de los estudiantes.
+
+- OG2: Explorar la relación de las creencias de los estudiantes en las actitudes cívicas.  
+
+**NOTA:** Notar que aquí ocupé creencias a secas.  
+
+- OE1: Describir la legitimidad del sistema distributivo en torno a tres ideas sobre distribución: i) percepción de meritocracia, ii) preferencias redistributivas y iii) preferencias por la desigualdad económica en el acceso derechos sociales  
+
+**NOTA:** Notar que aquí se está señalando que el concepto *legitimidad del sistema distributivo* engloba a los otros tres conceptos más especificos.  
+
+- OE2: Explorar la relación entre la legitimidad del sistema distributivo en padres y estudiantes, bajo la idea de una transmisión de creencias distributivas derivadas de la socialización familiar.  
+
+**NOTA:** Notar que aquí se están usando dos conceptos (*legitimidad del sistema distributivo* y *creencias distributivas*)  
+
+- OE3: Explorar el rol que ejerce el sentido de justicia en notas en las creencias sobre la legitimidad de la distribución de recursos en general y en la percepción de meritocracia.
+
+**NOTA:** Notar que aquí se usan tres conceptos (*creencias*, *legitimidad*, *percepciones*)  
+
+- OE4: Explorar la relación de las ideas sobre la legitimidad de la distribución social de los estudiantes con aspectos de la formación ciudadana como confianza en las instituciones, interés en temas político-sociales,  idea de buen ciudadano y participación política.  
+
+**NOTA:** Notar que aquí se utiliza el concepto de *ideas sobre la legitimidad*  
+
+### *Sobre las hipotesis*
+
+Se listan las hipotesis y se marcan en negritas las variables que se están considerando. Hay que discutirlas.
+
+- H1: Altos niveles de **justificación de la desigualdad** se relacionan con un bajo **nivel socioeconómico de los padres**.  
+
+- H2: La **justificación de las desigualdades** y la **percepción meritocrática** se relaciona con los **discursos críticos de la desigualdad socializados por los padres**, lo cual es fomentado por las **conversaciones políticas en la familia**.  
+
+- H3: Una **evaluación injusta de la nota** recibida por el estudiante se relaciona con una **menor aceptación de la desigualdad** y con **una menor percepción meritocrática**.  
+
+- H4: Plantea que una baja **justificación de la desigualdad del sistema distributivo** se relaciona con una **menor confianza en las instituciones políticas**.  
+
+- H5: Una baja **justificación de la desigualdad del sistema distributivo** se relaciona con una **imagen del buen ciudadano** basada en la acción más que en la obediencia.  
+
+- H6: Una baja **justificación de la desigualdad** se relaciona con una mayor **participación comunitaria y política**  
+
+**NOTA:** Notar la variedad de concepto que hay acá.
+
+### *Sobre las variables/conceptos principales*
+
+- VI.1: Opiniones distribución padres  
+
+- VI.2: Experiencia de justicia en la escuela  
+
+- VP.1/VI.3: Opiniones distribución estudiantes  
+
+- VP.2: Actitudes democráticas  
+
+**NOTA:** El concepto de "opiniones" es provisorio.  
+
+## Tareas
+
+| Tarea                                                                            | Encargado   | Plazo                    |
+|----------------------------------------------------------------------------------|-------------|--------------------------|
+| Discutir sobre concepto principal del trabajo                                    | Equipo      | Reunión miercoles 18 nov |
+| Discutir sobre aporte del trabajo, objetivos e hipotesis.                        | Equipo      | Reunión miercoles 18 nov |
+| Discutir sobre pilar argumentativo del trabajo (responder ¿Who cares? ¿So what?) | Equipo      | Reunión miercoles 18 nov |
+| Trabajar en apartado de Justicia Distributiva en base a nueva estructuración     | Francisco   | Jueves 19 nov            |
+| Trabajar en apartado de Socialización en base a nueva estructuración             | Martín      | Jueves 19 nov            |
+| Redactar objetivos, hipotesis y aportes ya discutidos                            | Por definir | Por definir              |

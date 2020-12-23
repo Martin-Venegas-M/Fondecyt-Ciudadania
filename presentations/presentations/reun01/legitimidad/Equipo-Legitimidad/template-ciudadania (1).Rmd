@@ -1,0 +1,79 @@
+---
+title: "Presentation Fondecyt Ciudadanía"
+author: "Juan Carlos Castillo, Julio Iturra, Francisco Meneses, Martin Venegas"
+date: "2016/12/12 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+
+# Problematización: la legitimidad de un sistema distributivo en crisis. 
+
+ * La desigualdad como creciente problema nacional e internacional. Inequidad de oportunidades, discriminación y cohesión: Un objetivo de los ODS.
+
+ * Individuo racional y economía moral de la desigualdad: El merito como criterio distributivo legitimador. 
+
+ * Los estudios se han centrado en las características individuales y nacionales relacionadas con la legitimidad del sistema distributivo (Immergut and Schneider, 2020; Solt et al. 2016)
+	* Proponemos avanzar en la comprensión del efecto de la socialización familiar y escolar en la legitimidad de la desigualdad (Le Garrec, 2015). 
+
+---
+
+# Marco conceptual 
+
+ * Legitimidad del sistema distributivo (Kluegel y Smith, 1981)
+	      + Percepcion meritocratica 
+	      + Preferencias redistributivas
+	      + Preferencias adscriptivistas. 
+ * Agentes de socialización politica (Wanders et al., 2020; Astill et al., 2002)
+	      + Transmisión de valores, percepciones y.... ¿Evaluación de justicia? 
+ * Sensación de justicia en la escuela (Jasso y Resh, 2002; Resh y Sabbagh, 2016) 
+      	+ Evaluación de justicia en las notas
+    	  + Justicia interaccional. 
+    	  + Justicia procesal.
+ * Actitudes relacionadas con la democracia. (Abdelzadeh, 2015; Segovia, 2008)  
+    	  + Definición de un Buen ciudadano.
+    	  + Confianza en las instituciones.
+    	  + Participación política.
+
+---
+
+## H 1-2 Justicia distributiva y socialización
+
+.center[![30%](images/hipotesis2.png)]
+
+ * En términos generales, el sistema distributivo posee una baja legitimidad en los estudiantes chilenos (Descriptivo).
+ * La baja legitimidad del sistema distributivo se relaciona con poseer padres que consideren poco legitimo dicho sistema. 
+
+---
+## H3 Sentido de injusticia y sistema distributivo
+.center[![30%](images/hipotesis3.png)]
+
+ * Una evaluación de injusticia en las notas se relaciona con una menor legitimidad del sistema distributivo en general.
+
+---
+## H 4-6 Sistema Distributivo y democracia 
+.center[![30%](images/hipotesis46.png)]
+
+ * Una baja justificación de la desigualdad del sistema distributivo se relaciona con una menor confianza en las instituciones políticas.
+ * Una baja justificación de la desigualdad del sistema distributivo se relaciona con una imagen del buen ciudadano basada en la acción más que en la obediencia.
+ * Una baja justificación de la desigualdad se relaciona con una mayor participación comunitaria y política. 
+
+---
+# Modelo en general. 
+
+.center[![70%](images/modelo.png)]
+
+
+---
+class: center, middle
+
+# Agradecimientos!
+
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
+
+The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).
