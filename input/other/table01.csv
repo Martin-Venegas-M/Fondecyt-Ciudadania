@@ -1,7 +1,5 @@
-﻿variable;concept;subject;items_spa;cats
-Dep.;Percepción Meritocrática;Estudiantes;En Chile, los que se esfuerzan salen adelante;(4) Muy de acuerdo a (1) Muy en desacuerdo
-Dep.;Percepción Meritocrática;Estudiantes;Actualmente en Chile, para surgir en la vida ¿Cuán importante es: El trabajo duro?         ;(4) Muy importante a (1) Nada importante
-Indep.;Percepción Meritocrática;Padres;En Chile, los que se esfuerzan salen adelante;(4) Muy de acuerdo a (1) Muy en desacuerdo
-Indep.;Percepción Meritocrática;Padres;Actualmente en Chile, para surgir en la vida ¿Cuán importante es: El trabajo duro?;(4) Muy importante a (1) Nada importante
-Indep.;Sentido de justicia en la escuela;Estudiantes;¿Qué promedio de notas obtuviste el año pasado?;"Valores continuos, min = 1; max=7"
-Indep.;Sentido de justicia en la escuela;Estudiantes;¿Qué promedio de nota piensas que merecías?;"Valores continuos, min = 1; max=7"
+﻿concept;items_spa;cats
+Percepción Meritocrática;En Chile, los que se esfuerzan salen adelante;(4) Muy de acuerdo 
+Percepción Meritocrática;En Chile, los que se esfuerzan salen adelante;(1) Muy en desacuerdo
+Percepción Meritocrática;Actualmente en Chile, para surgir en la vida ¿Cuán importante es: El trabajo duro?         ;(4) Muy importante 
+Percepción Meritocrática;Actualmente en Chile, para surgir en la vida ¿Cuán importante es: El trabajo duro?         ;(1) Nada importante

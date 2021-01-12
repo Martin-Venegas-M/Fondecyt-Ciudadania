@@ -111,14 +111,16 @@ Los datos para este estudio fueron levantados mediante una encuesta aplicada en 
 
 
 ## ¿Cuál es la pregunta principal o la hipótesis que se está probando en este estudio?
-La percepción de meritocracia se refiere a una constatación u observación personal sobre el funcionamiento de la meritocracia en la sociedad, entendida como que los recursos se distribuyen en base a mérito (esfuerzo y talento). En el caso específico de este estudio el interés principal es analizar las percepciones de estudiantes de 2do medio en Chile en relación a dos agentes de socialización: la familia y la escuela. Las hipótesis son las siguientes.
+La percepción de meritocracia se refiere a una constatación u observación personal sobre el funcionamiento de la meritocracia en la sociedad, entendida como que los recursos se distribuyen en base a mérito (esfuerzo y talento). En el caso específico de este estudio el interés principal es analizar las percepciones de estudiantes de 2do medio en Chile en relación a dos agentes de socialización: la familia y la escuela. Se señala en terminos generales que las creencias meritocraticas de los estudiantes son influidas por los recursos y opiniones de la familia, a la vez que esta influencia puede ser moderada por las vivencias en la escuela, vivencias influidas igualmente por los recursos familiares. 
 
 
-- $H_1$ Padres con mayor percepción de meritocracia fomentan en sus hijos una mayor percepción de meritocracia.
+- $H_1$ __Hipótesis localización meritocrática__: La percepción meritocrática de los padres media la relación positiva entre NSE y percepción meritocrática de los estudiantes. Esto implica que padres con mayor NSE tendrán una mayor percepción en la meritocracia a la vez que tendrán hijos con una percepción similar, de modo tal que el efecto del nse sobre las percepciones de los hijos es controlado por la percepción. de los padres. 
 
-- $H_2$. Los estudiantes que sienten que obtienen calificaciones justas en sus colegios poseen mayor percepción de meritocracia.
+- $H_2$ __Hipótesis de inferencia  por experiencia de desigualdad__: La transmisión intergeneracional de la percepción de meritocracia es moderada por un contexto escolar heterogéneo, el cual entrega información  a los alumnos para inferir ideas contrarias a las transmitidas por la familia. 
 
-- $H_3$. El efecto de la percepción de meritocracia de los padres sobre la percepción de meritocracia de los estudiantes se verá moderado por su sentido de justicia en las notas. 
+- $H_3$ __Hipótesis experiencia de sensación de injusticia__: La transmisión intergeneracional de la percepción de meritocracia puede ser moderada por sensaciones de injusticia en las notas de la escuela, ya que experimentar el esfuerzo no recompensado facilita dudar de las ideas meritocráticas 
+- $H_4$ __Hipótesis de discriminación relativa__: La sensación de injusticia en las notas es mayor para jóvenes de bajo NSE, efecto potenciado en colegios heterogéneos debido a las diferencias de trato de los docentes. 
+
 
 \pagebreak
 
@@ -188,30 +190,61 @@ $\text{Sentido de justicia en notas}= ln(\frac{\text{nota obtenida}}{\text{nota 
 
 En vista de la estructura jerarquizada de la base de datos y considerando el nivel de medición ordinal de las variables se utilizarán regresiones logísticas ordinales multinivel. En base a las formalización de @arfan_Ordinal_2017 se propone el siguiente modelo general:  
 
+Los distintos modelos con percepción meritocrática de los estudiantes como dependiente representaran el cálculo de la probabilidad acumulada de que un estudiante responda hasta $C$ en los indicadores de percepción de meritocracia, siendo $Y_{cij}$ una respuesta categórica ordenada de un estudiante $i^{th}$ en una escuela (cluster) $j^{th}$ con $C$ categorías ordenadas, codificadas como $C = 1,2,3,4$. Esta probabilidad se calcula en función de: el intercepto por cada categoría $a_c$, los coeficientes $\gamma_1$ y $\gamma_2$ para la percepción de meritocracia de los padres y el sentido de justicia en las notas respectivamente, $\gamma_n$ para las variables de control, $u_{0j}$ como termino de error para una escuela $j$ y $r_{ij}$ como error de la estimación para el individuo $i$ en una escuela $j$. 
+
+Siguiendo las recomendaciones de Mathieu y Taylor (2007) para mediaciones multinivel, se probara el efecto de  X sobre M, luego X sobre Y, y luego el efecto de X controlado por M sobre Y, esperando que M sea capas de controlar la totalidad del efecto de X sobre Y. En ese caso particular se espera que NSP influya sobre PMP y que el efecto de NSP sobre PME, sea moderado por PMP. Las formulas de la uno a la tres se utilizan para probar mediante este método la $H_1$. Para evaluar que esta influencia es efectivamente de nivel 1, siguiendo a Zhang, Zyphur y Preacher (2009) evaluaremos el efecto con las variables centradas al grupo. También se utilizara el test de Sobel para evaluar la significación de la mediación.  
+
 >
 
-$log\left(\frac{Pr(Y_{ij}≤c)}{Pr(Y_{ij}>c)}\right)= a_c+\gamma_{1}Perc.MeritocraciaPadres_{ij}*\gamma_2SentidoJusticiaNotas_{ij}+\gamma_nControles_{ij}+u_{0j}+r_{ij}$  
+1. $\log\left(\frac{Pr(\text{PMP}_{ij}≤c)}{Pr(PMP_{ij}>c)}\right)= a_c+\gamma_{1}\text{NSP}_{ij} + \gamma_{n}\text{VC}_{ij}+u_{0j}+r_{ij}$
 
->
+2. $\log\left(\frac{Pr(\text{PME}_{ij}≤c)}{Pr(PME_{ij}>c)}\right)= a_c+\gamma_{1}\text{NSP}_{ij} + \gamma_{n}\text{VC}_{ij}+u_{0j}+r_{ij}$
 
-$\log\left(\frac{Pr(Y_{ij}≤c)}{Pr(Y_{ij}>c)}\right)= a_c+\gamma_{1}\text{PMP}_{ij}\times\gamma_2\text{SJ}_{ij}+\gamma_{n}\text{C}_{ij}+u_{0j}+r_{ij}$
+3. $\log\left(\frac{Pr(\text{PME}_{ij}≤c)}{Pr(PME_{ij}>c)}\right)= a_c+\gamma_{1}\text{NSP}_{ij}+\gamma_{1}\text{PMP}_{ij} + \gamma_{n}\text{VC}_{ij}+u_{0j}+r_{ij}$
 
-* PM= percepción meritocracia padres
+* PME= percepción meritocrática estudiantes
+* PMP= percepción meritocrática padres
+* NSP= nivel socio económico padres
 * SJ= Sentido Justicia en la escuela
-* C= Controles
+* VC= Variables de Control
+
+
+
+La formula numero cuatro busca contrastar la $H_2$. Mediante la multiplicación entre $\gamma_{10}$ y $\gamma_{01}$ la formula expresa una interacción multinivel entre percepción meritocrática de los padres y el heterogeneidad socioecnomica de la escueal, de modo tal que la fuerza transmisión de ideas meritocracias puede ser disminuida por experimentar desigualdad. En suma, el modelo busca calcular la incidencia de la percepción meritocrática de los padres y la heterogeneidad socioeconomica de la escuela, en la percepción meritocrática de los estudiantes. La construcción del modelo general se hará por partes. El primer modelo solamente incluirá el coeficiente $\gamma_{10}$ para la percepción meritocrática de los padres. El segundo modelo añadirá $\gamma_{01}$ para controlar por la heterogeneidad socioeconomica. El tercer modelo corresponde al modelo general, añadiendo $\gamma_n$ para los controles y la interacción  $\gamma_{10}$ y $\gamma_{01}$. Este procedimiento se realizará para cada indicador de la percepción meritocrática de los estudiantes.
 
 >
 
+4. $\log\left(\frac{Pr(\text{PME}_{ij}≤c)}{Pr(\text{PME}_{ij}>c)}\right)= a_c+\gamma_{10}\text{PMP}_{ij}\times\gamma_{01}\text{HSE}_{j}+\gamma_{n}\text{VC}_{ij}+u_{0j}+r_{ij}$
 
-El modelo general representa el cálculo de la probabilidad acumulada de que un estudiante responda hasta $C$ en los indicadores de percepción de meritocracia, siendo $Y_{cij}$ una respuesta categórica ordenada de un estudiante $i^{th}$ en una escuela (cluster) $j^{th}$ con $C$ categorías ordenadas, codificadas como $C = 1,2,3,4$. Esta probabilidad se calcula en función de: el intercepto por cada categoría $a_c$, los coeficientes $\gamma_1$ y $\gamma_2$ para la percepción de meritocracia de los padres y el sentido de justicia en las notas respectivamente, $\gamma_n$ para las variables de control, $u_{0j}$ como termino de error para una escuela $j$ y $r_{ij}$ como error de la estimación para el individuo $i$ en una escuela $j$. Mediante la multiplicación entre $\gamma_1$ y $\gamma_2$, la formula expresa una interacción entre percepción meritocrática de los padres y el sentido de justicia en las notas, de modo tal que la fuerza transmisión de ideas meritocracias puede ser disminuida por experiencias como la sensación de injusticia en las notas. En suma, el modelo busca calcular la incidencia de la percepción meritocrática de los padres y el sentido de justicia en las notas, en la percepción meritocrática de los estudiantes.
+* PME= percepción meritocratica estudiantes
+* PMP= percepción meritocracia padres
+* HSE= heterogeneidad socioeconomica de la escuela.
+* VC= Variables de Control
 
-La construcción del modelo general se hará por partes. El primer modelo solamente incluirá el coeficiente $\gamma_1$ para la percepción meritocrática de los padres. El segundo modelo añadirá $\gamma_2$ para controlar por el sentido de justicia en las notas. El tercer modelo corresponde al modelo general, añadiendo $\gamma_n$ para los controles y la interacción $\gamma_1*\gamma_2$. Este procedimiento se realizará para cada indicador de la percepción meritocrática de los estudiantes.
+
+La formula numero cinco busca contrastar la $H_3$. Mediante la multiplicación entre $\gamma_1$ y $\gamma_2$,La formula expresa una interacción entre percepción meritocrática de los padres y el sentido de justicia en las notas, de modo tal que la fuerza transmisión de ideas meritocracias puede ser disminuida por experiencias como la sensación de injusticia en las notas. En suma, el modelo busca calcular la incidencia de la percepción meritocrática de los padres y el sentido de justicia en las notas, en la percepción meritocrática de los estudiantes. La construcción del modelo general se hará por partes. El primer modelo solamente incluirá el coeficiente $\gamma_1$ para la percepción meritocrática de los padres. El segundo modelo añadirá $\gamma_2$ para controlar por el sentido de justicia en las notas. El tercer modelo corresponde al modelo general, añadiendo $\gamma_n$ para los controles y la interacción $\gamma_1*\gamma_2$. Este procedimiento se realizará para cada indicador de la percepción meritocrática de los estudiantes.
+
+
+
+5. $\log\left(\frac{Pr(\text{PME}_{ij}≤c)}{Pr(\text{PME}_{ij}>c)}\right)= a_c+\gamma_{1}\text{PMP}_{ij}\times\gamma_2\text{SJ}_{ij}+\gamma_{n}\text{VC}_{ij}+u_{0j}+r_{ij}$
+
+* PME= percepción meritocratica estudiantes
+* PMP= percepción meritocracia padres
+* SJ= Sentido Justicia en la escuela
+* VC= Varibales de Control
+
+La formula numero seis utilizada para probar $H_4$, difiere en el nivel de medida de la dependiente, por lo cual se utiliza regresion lineal multinivel. En esta formula se expresa el efecto del nivel socioeconomico de la familia sobre el sentido de justicia de las notas y como este puede ser potenciado por la heterogeneidad de la escuela.
+
+6. $\text{SJ}_{ij}= a_c+\gamma_{1}\text{NSP}_{ij}\times\gamma_{01}\text{HSE}_{j}+\gamma_{n}\text{VC}_{ij}+u_{0j}+r_{ij}$
+
+
 
 La correlación intra clase (ICC) para una variable dependiente ordinal se calculará siguiendo a (Snijder and Bosker en @arfan_Ordinal_2017:
 
 $ICC = \frac{\tau_0}{\tau_0 + 3.29}$
 
 Siendo $\tau_0$ el termino de error de la varianza de nivel dos, y 3.29 la varianza de una distribución logistica estandar.
+
 
 El ánalisis se llevará a cabo con R version 4.0.3 "Bunny-Wunnies Freak Out", utilizando el paquete *mvord* desarrollado por @hirk_mvord_2020 para regresiones logísticas ordinales multinivel.
 
@@ -220,6 +253,8 @@ El ánalisis se llevará a cabo con R version 4.0.3 "Bunny-Wunnies Freak Out", u
 ## ¿Algún análisis secundario?
 
 Como análisis de robustez de los modelos multinivel, se realizará la prueba d-cook para detectar casos influyentes, contrastando posteriormente la relación con y sin ellos. En la misma línea se calcularán los dfbetas para cada predictor. Con el mismo objetivo, compararemos los ajustes de los modelos multinivel con los mismos modelos pero con las variables centradas al promedio del grupo, para evaluar que el efecto que señalamos como individual no se deba al contexto de la escuela. 
+
+Exploratoriamente se evaluará el efecto de la apertura a la discusión en el aula y el conocimiento cívico sobre la percepción de meritocracia.
 
 ## ¿Cuántas observaciones se recopilarán o que determinará el tamaño de la muestra? No es necesario justificar la decisión, pero sea preciso sobre cómo se determinará exactamente el número.
 
