@@ -110,6 +110,7 @@ Para la elaboración de este pre-registro se ha seguido la plantilla de preinscr
 
 Actualmente las democracias se enfrentan a nivel mundial con problemas de legitimidad debido a la baja y socialmente desigual participación de la ciudadanía. Frente a este escenario las políticas públicas y la investigación social han trabajado para buscar modos de fortalecer las actitudes democráticas de los estudiantes y comprender mejor el fenómeno. Al respecto se ha señalado que la desigualdad social genera un efecto negativo en la participación democrática, lo cual se transmite intergeneracionalmente, a la vez que se han estudiado las transferencias de valores políticos como la disposición a participar y la confianza en las instituciones. No obstante, dentro de los temas estudiados en torno a la socialización política no se han incluido estudios sobre la socialización de las ideas hacia la desigualdad, las cuales podrían tener algún efecto en las actitudes cívicas y ciudadanas.  Dentro del campo de los estudios sobre las creencias hacia la desigualdad adquieren cada vez más relevancia la percepción  de meritocracia, según las cuales los sujetos perciben que los recursos se distribuyen en base al esfuerzo individual. Estas percepciones son muy relevantes puesto que justifican las desigualdades (Bay-Cheng, 2015), disminuyen las actitudes positivas hacia la igualdad de derecho en tanto aumentan la intolerancia (Madeira, et al., 2019) y se relacionan con actitudes poco democráticas como el autoritarismo social (Azevedo, 2019). Respecto a las explicaciones de las creencias meritocráticas, se ha puesto énfasis en el efecto de variables socioeconómicas, así como en variables contexto como la exposición a la desigualdad. En estos estudios la presente investigación busca aportar comprendiendo el rol de la socialización en la percepción de meritocracia. Más particularmente, buscaremos comprender  el efecto de la transmisión familiar de la percepción de meritocracia y el efecto de las experiencia en la escuela en torno a la justicia en la distribución de las notas. 
 
+\pagebreak
 
 ## ¿Se han recopilado ya datos para este estudio?
 Los datos para este estudio fueron levantados mediante una encuesta aplicada en colegios en Chile entre agosto y diciembre del 2019. Los participantes del estudio son estudiantes (2° año educación media/secundaria), así como también sus apoderados y profesores quienes también contestaron un cuestionario con preguntas similares en temas de formación ciudadana. Los colegios seleccionados son de la Región de Antofagasta (14 Establecimientos), la Región Metropolitana (35 Establecimientos) y la Región del Maule (15 Establecimientos). De cada establecimiento se seleccionó un curso completo. Hasta el momento solo se han realizado análisis descriptivos de la muestra, sin recurrir a análisis bivariados o a pruebas de hipótesis.
@@ -120,22 +121,23 @@ Los datos para este estudio fueron levantados mediante una encuesta aplicada en 
 
 
 ### Efectos Directos
-$H_1$: El nivel socioeconómico de la familia posee un efecto positivo en las percepciones meritocraticas del estudiante
-$H_2$: El nivel socioeconómico de la familia posee un efecto positivo en las percepciones meritocraticas de los padres del estudiante.
-$H_3$: Padres con mayor percepción de meritocracia se asocian a estudiantes con mayor percepción de meritocracia
-$H_4$: Estudiantes con una mayor sensación de injusticia en las notas tendrán una menor percepción de meritocracia.
-$H_5$: El nivel socioeconómico de la familia afecta positivamente la sensación de justicia en las notas   
-$H_6$: La heterogeneidad socioeconómica del contexto escolar afecta negativamente las creencias meritocráticas
+
+* $H_1$: El nivel socioeconómico de la familia posee un efecto positivo en las percepciones meritocraticas del estudiante
+* $H_2$: El nivel socioeconómico de la familia posee un efecto positivo en las percepciones meritocraticas de los padres del estudiante.
+* $H_3$: Padres con mayor percepción de meritocracia se asocian a estudiantes con mayor percepción de meritocracia
+* $H_4$: Estudiantes con una mayor sensación de injusticia en las notas tendrán una menor percepción de meritocracia.
+* $H_5$: El nivel socioeconómico de la familia afecta positivamente la sensación de justicia en las notas   
+* $H_6$: La heterogeneidad socioeconómica del contexto escolar afecta negativamente las creencias meritocráticas
 
 ### Mediación:
-$H_7$: El efecto del nivel socioeconómico de la familia sobre la percepción meritocrática de los estudiantes es mediado a través de la percepción meritocrática de sus padres.
+* $H_7$: El efecto del nivel socioeconómico de la familia sobre la percepción meritocrática de los estudiantes es mediado a través de la percepción meritocrática de sus padres.
 
 ### Interacciones.
-$H_8$: La sensación de injusticia en las notas puede moderar el efecto de la percepción meritocrática de los padres sobre la percepción meritocrática de sus hijos.
-$H_9$: La heterogeneidad socioeconómica del contexto escolar puede moderar el efecto de la percepción meritocrática de los padres sobre la percepción meritocrática de sus hijos.
-$H_10$: La heterogeneidad socioeconómica del contexto escolar puede potenciar el efecto del nivel socioeconómico de la familia sobre la sensación de justicia en las notas.
 
-\pagebreak
+* $H_8$: La sensación de injusticia en las notas puede moderar el efecto de la percepción meritocrática de los padres sobre la percepción meritocrática de sus hijos.
+* $H_9$: La heterogeneidad socioeconómica del contexto escolar puede moderar el efecto de la percepción meritocrática de los padres sobre la percepción meritocrática de sus hijos.
+* $H_{10}$: La heterogeneidad socioeconómica del contexto escolar puede potenciar el efecto del nivel socioeconómico de la familia sobre la sensación de justicia en las notas.
+
 
 ## Describa la(s) variable(s) clave(s) especificando cómo se medirán.
 
