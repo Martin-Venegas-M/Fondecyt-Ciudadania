@@ -108,7 +108,7 @@ Para la elaboración de este pre-registro se ha seguido la plantilla de preinscr
 
 ## Resumen
 
-Actualmente las democracias se enfrentan a nivel mundial con problemas de legitimidad debido a la baja y socialmente desigual participación de la ciudadanía. Frente a este escenario las políticas públicas y la investigación social han trabajado para buscar modos de fortalecer las actitudes democráticas de los estudiantes y comprender mejor el fenómeno. Al respecto se ha señalado que la desigualdad social genera un efecto negativo en la participación democrática, lo cual se transmite intergeneracionalmente, a la vez que se han estudiado las transferencias de valores políticos como la disposición a participar y la confianza en las instituciones. No obstante, dentro de los temas estudiados en torno a la socialización política no se han incluido estudios sobre la socialización de las ideas hacia la desigualdad, las cuales podrían tener algún efecto en las actitudes cívicas y ciudadanas.  Dentro del campo de los estudios sobre las creencias hacia la desigualdad adquieren cada vez más relevancia la percepción  de meritocracia, según las cuales los sujetos perciben que los recursos se distribuyen en base al esfuerzo individual. Estas percepciones son muy relevantes puesto que justifican las desigualdades (Bay-Cheng, 2015), disminuyen las actitudes positivas hacia la igualdad de derecho en tanto aumentan la intolerancia (Madeira, et al., 2019) y se relacionan con actitudes poco democráticas como el autoritarismo social (Azevedo, 2019). Respecto a las explicaciones de las creencias meritocráticas, se ha puesto énfasis en el efecto de variables socioeconómicas, así como en variables contexto como la exposición a la desigualdad. En estos estudios la presente investigación busca aportar comprendiendo el rol de la socialización en la percepción de meritocracia. Más particularmente, buscaremos comprender  el efecto de la transmisión familiar de la percepción de meritocracia y el efecto de las experiencia en la escuela en torno a la justicia en la distribución de las notas. 
+Estudios de la educación cívica han producido valiosa evidencia sobre la socialización política y la preparación para la ciudadanía democrática. Desde la socialización política se ha estudiado la transmisión intergeneracional de variadas actitudes, creencias y comportamientos políticos, pero se han incluido muy pocos estudios sobre la justicia distributiva. ¿Creen los jóvenes que la desigualdad actual es justa? ¿Creen que los recursos se distribuyen meritocráticamente según el esfuerzo? Estas son algunas preguntas del campo de la justicia distributiva, que tendría sentido realizar en el marco de la socialización política debido a que las creencias meritocraticas se asocian con temas cívicos como el autoritarismo social, la justificación de las desigualdades y la intolerancia [@madeira_Primes_2019; @bay-cheng_Tracking_2015a; @azevedo_Neoliberal_2019]. En vista de lo anterior la pregunta general de este estudio es ¿En qué medida la familia y la escuela afectan la percepción de la meritocracia de los estudiantes? La percepción de meritocracia se refiere a una constatación u observación personal sobre el funcionamiento de la meritocracia en la sociedad, entendida como que los recursos se distribuyen en base a mérito (esfuerzo y talento). Este estudio busca analizar las percepciones de estudiantes de 2do medio en Chile (n = 1635) en relación con dos agentes de socialización: la familia y la escuela. Se señala en términos generales que las creencias meritocraticas de los estudiantes son influidas por características de la familia, como las opiniones y los recursos, así como también por vivencias en la escuela, como la sensación de justicia en las notas y la heterogeneidad socioeconómica experimentada.
 
 \pagebreak
 
@@ -117,24 +117,34 @@ Los datos para este estudio fueron levantados mediante una encuesta aplicada en 
 
 ## ¿Cuál es la pregunta principal o la hipótesis que se está probando en este estudio?
 
-¿En que medida la familia y la escuela afectan la percepción de la meritocracia de los estudiantes? La percepción de meritocracia se refiere a una constatación u observación personal sobre el funcionamiento de la meritocracia en la sociedad, entendida como que los recursos se distribuyen en base a mérito (esfuerzo y talento). En el caso específico de este estudio el interés principal es analizar las percepciones de estudiantes de 2do medio en Chile en relación a dos agentes de socialización: la familia y la escuela. Se señala en términos generales que las creencias meritocraticas de los estudiantes son influidas por los recursos y opiniones de la familia así como también por la evaluación de justicia en las notas obtenidas en la escuela.
+¿En que medida la familia y la escuela afectan la percepción de la meritocracia de los estudiantes? La percepción de meritocracia se refiere a una constatación u observación personal sobre el funcionamiento de la meritocracia en la sociedad, entendida como que los recursos se distribuyen en base a mérito (esfuerzo y talento). En el caso específico de este estudio el interés principal es analizar las percepciones de estudiantes de 2do medio en Chile en relación a dos agentes de socialización: la familia y la escuela. Se señala en términos generales que las creencias meritocráticas de los estudiantes son influidas por los recursos y opiniones de la familia así como también por la evaluación de justicia en las notas obtenidas en la escuela y la heterogeneidad socioeconomica de la misma. 
 
 
 ### Efectos Directos
+
+_Nivel 1_
 
 * $H_1$: El nivel socioeconómico de la familia posee un efecto positivo en las percepciones meritocraticas del estudiante
 * $H_2$: El nivel socioeconómico de la familia posee un efecto positivo en las percepciones meritocraticas de los padres del estudiante.
 * $H_3$: Padres con mayor percepción de meritocracia se asocian a estudiantes con mayor percepción de meritocracia
 * $H_4$: Estudiantes con una mayor sensación de injusticia en las notas tendrán una menor percepción de meritocracia.
 * $H_5$: El nivel socioeconómico de la familia afecta positivamente la sensación de justicia en las notas   
+
+_Nivel 2_
+
 * $H_6$: La heterogeneidad socioeconómica del contexto escolar afecta negativamente las creencias meritocráticas
 
 ### Mediación:
 * $H_7$: El efecto del nivel socioeconómico de la familia sobre la percepción meritocrática de los estudiantes es mediado a través de la percepción meritocrática de sus padres.
 
-### Interacciones.
+### Moderaciones
+
+_Nivel 1_
 
 * $H_8$: La sensación de injusticia en las notas puede moderar el efecto de la percepción meritocrática de los padres sobre la percepción meritocrática de sus hijos.
+
+_Entre niveles_ 
+
 * $H_9$: La heterogeneidad socioeconómica del contexto escolar puede moderar el efecto de la percepción meritocrática de los padres sobre la percepción meritocrática de sus hijos.
 * $H_{10}$: La heterogeneidad socioeconómica del contexto escolar puede potenciar el efecto del nivel socioeconómico de la familia sobre la sensación de justicia en las notas.
 
@@ -239,52 +249,78 @@ Para las siguientes formulas, las siglas poseen estos significados:
 * HSE= Heterogeneidad socioeconómica de la escuela
 * VC= Variables de Control
 
-La primera hipótesis sera testeada con la formula numero 1. Esta formula señala que la percepción meritocracia de los estudiantes se explica por el nivel socioeconómico familiar más un conjunto de controles, un error de estimación individual y un error grupal.  
+La $H_1$ sera testeada con la formula numero 1. Esta formula señala que la percepción meritocracia de los estudiantes se explica por el nivel socioeconómico familiar más un conjunto de controles, un error de estimación individual y un error grupal.  
 
-1. $\log\left(\frac{Pr(\text{PME}_{ij}≤c)}{Pr(PME_{ij}>c)}\right)= a_c+\gamma_{10}\text{NSF}_{ij} + \gamma_{n}\text{VC}_{ij}+u_{0j}+r_{ij}$
 
-La segunda hipótesis sera testeada con la formula numero 2. Esta formula señala que la percepción meritocracia de los padres se explica por el nivel socioeconómico familiar más un conjunto de controles, un error de estimación individual y un error grupal.
+\begin{equation}
+\log\left(\frac{Pr(\text{PME}_{ij}≤c)}{Pr(PME_{ij}>c)}\right)= a_c+\gamma_{10}\text{NSF}_{ij} + \gamma_{n}\text{VC}_{ij}+u_{0j}+r_{ij}
+\end{equation}
 
-2. $\log\left(\frac{Pr(\text{PMP}_{ij}≤c)}{Pr(PMP_{ij}>c)}\right)= a_c+\gamma_{10}\text{NSF}_{ij} + \gamma_{n}\text{VC}_{ij}+u_{0j}+r_{ij}$
 
-La tercera hipótesis sera testeada con la formula numero 3. Esta formula señala que la percepción meritocracia de los estudiantes se explica por la percepción meritocracia de los padres más un conjunto de controles, un error de estimación individual y un error grupal.
+La $H_2$ sera testeada con la formula numero 2. Esta formula señala que la percepción meritocracia de los padres se explica por el nivel socioeconómico familiar más un conjunto de controles, un error de estimación individual y un error grupal.
 
-3. $\log\left(\frac{Pr(\text{PME}_{ij}≤c)}{Pr(PME_{ij}>c)}\right)= a_c+\gamma_{10}\text{PMP}_{ij} + \gamma_{n}\text{VC}_{ij}+u_{0j}+r_{ij}$
+\begin{equation}
+\log\left(\frac{Pr(\text{PMP}_{ij}≤c)}{Pr(PMP_{ij}>c)}\right)= a_c+\gamma_{10}\text{NSF}_{ij} + \gamma_{n}\text{VC}_{ij}+u_{0j}+r_{ij}
+\end{equation}
 
-La cuarta hipótesis sera testeada con la formula numero 4. Esta formula señala que la percepción meritocracia de los estudiantes se explica por la sensación de justicia en las notas del estudiante  más un conjunto de controles, un error de estimación individual y un error grupal.
+La $H_3$ sera testeada con la formula numero 3. Esta formula señala que la percepción meritocracia de los estudiantes se explica por la percepción meritocracia de los padres más un conjunto de controles, un error de estimación individual y un error grupal.
 
-4. $\log\left(\frac{Pr(\text{PME}_{ij}≤c)}{Pr(PME_{ij}>c)}\right)= a_c+\gamma_{10}\text{SJ}_{ij} + \gamma_{n}\text{VC}_{ij}+u_{0j}+r_{ij}$
+\begin{equation}
+\log\left(\frac{Pr(\text{PME}_{ij}≤c)}{Pr(PME_{ij}>c)}\right)= a_c+\gamma_{10}\text{PMP}_{ij} + \gamma_{n}\text{VC}_{ij}+u_{0j}+r_{ij}
+\end{equation}
 
-La quinta hipótesis sera testeada con la formula numero 5. Esta formula señala que la sensación de justicia en las notas del estudiante por el se explica por el nivel socioeconómico familiar más un conjunto de controles, un error de estimación individual y un error grupal.
+La $H_4$ sera testeada con la formula numero 4. Esta formula señala que la percepción meritocracia de los estudiantes se explica por la sensación de justicia en las notas del estudiante  más un conjunto de controles, un error de estimación individual y un error grupal.
 
-5. $\text{SJ}= a_c+\gamma_{10}\text{NSP}_{ij} + \gamma_{n}\text{VC}_{ij}+u_{0j}+r_{ij}$
+\begin{equation}
+\log\left(\frac{Pr(\text{PME}_{ij}≤c)}{Pr(PME_{ij}>c)}\right)= a_c+\gamma_{10}\text{SJ}_{ij} + \gamma_{n}\text{VC}_{ij}+u_{0j}+r_{ij}
+\end{equation}
 
-La sexta hipótesis sera testeada con la formula numero 6. Esta formula señala que la percepción meritocracia de los estudiantes se explica por la heterogeneidad socioeconómica del contexto escolar, más un conjunto de controles, un error de estimación individual y un error grupal.
+La $H_5$ sera testeada con la formula numero 5. Esta formula señala que la sensación de justicia en las notas del estudiante por el se explica por el nivel socioeconómico familiar más un conjunto de controles, un error de estimación individual y un error grupal.
 
-6. $\log\left(\frac{Pr(\text{PME}_{ij}≤c)}{Pr(PME_{ij}>c)}\right)= a_c+\gamma_{01}\text{HSE}_{j} + \gamma_{n}\text{VC}_{ij}+u_{0j}+r_{ij}$
+\begin{equation}
+\text{SJ}= a_c+\gamma_{10}\text{NSP}_{ij} + \gamma_{n}\text{VC}_{ij}+u_{0j}+r_{ij}
+\end{equation}
 
-La séptima hipótesis sera testeada con las formulas 7.1, 7.2 y 7.3. Estas tres formulas representa una mediacón multinivel. La formula 7.1 es equivalente a la formula n°1, y señala el efecto del nse familiar sobre la percepción meritocrática del estudiante. La formula 7.2 representa el efecto directo de nse familiar sobre la percepción meritocrática, controlado por el efecto de la percepción de los padres. La formula 7.3 es equivalente a la formula n°2 y expone el efecto del nse familiar sobre la variable mediadora percepción meritocratica de los padres. Se puede obtener el efecto indirecto del nse familiar sobre la percepción del estudiante, que pasa a traves de la percepción de los padres mediante $\gamma_{30}\times\gamma_{20}$. Si la mediación es perfecta, esperamos que en la formula 7.2 PMP controle completamente el efecto de NSF sobre PME [@mathieu_framework_2007a].Para evaluar que esta influencia es efectivamente de nivel 1, siguiendo a @zhang_Testing_2009 evaluaremos el efecto con las variables centradas al grupo. También se utilizara el test de Sobel para evaluar la significación de la mediación.
+La $H_6$ sera testeada con la formula numero 6. Esta formula señala que la percepción meritocracia de los estudiantes se explica por la heterogeneidad socioeconómica del contexto escolar, más un conjunto de controles, un error de estimación individual y un error grupal.
 
-7.1. $\log\left(\frac{Pr(\text{PME}_{ij}≤c)}{Pr(PME_{ij}>c)}\right)= a_c+\gamma_{10}\text{NSF}_{ij} + \gamma_{n}\text{VC}_{ij}+u_{0j}+r_{ij}$
+\begin{equation}
+\log\left(\frac{Pr(\text{PME}_{ij}≤c)}{Pr(PME_{ij}>c)}\right)= a_c+\gamma_{01}\text{HSE}_{j} + \gamma_{n}\text{VC}_{ij}+u_{0j}+r_{ij}
+\end{equation}
 
-7.2. $\log\left(\frac{Pr(\text{PME}_{ij}≤c)}{Pr(PME_{ij}>c)}\right)= a_c+\gamma\text'_{10}\text{NSF}_{ij} + \gamma_{20}\text{PMP}_{ij}  +\gamma_{n}\text{VC}_{ij}+u_{0j}+r_{ij}$
+La $H_7$ sera testeada con las formulas 7, 8 y 9. Estas tres formulas representan una mediación multinivel. La formula 7.1 es equivalente a la formula n°1, y señala el efecto del NSF sobre la percepción meritocrática del estudiante. La formula 8 representa el efecto directo de NSF sobre la percepción meritocrática, controlado por el efecto de la percepción de los padres. La formula 9 es equivalente a la formula n°2 y expone el efecto del NSF sobre la variable mediadora percepción meritocrática de los padres. Se puede obtener el efecto indirecto del NSF sobre la percepción del estudiante, que pasa a traves de la percepción de los padres mediante $\gamma_{30}\times\gamma_{20}$. Si la mediación es perfecta, esperamos que en la formula 8 PMP controle completamente el efecto de NSF sobre PME [@mathieu_framework_2007a].Para evaluar que esta influencia es efectivamente de nivel 1, siguiendo a @zhang_Testing_2009 evaluaremos el efecto con las variables centradas al grupo. También se utilizara el test de Sobel para evaluar la significación de la mediación.
 
-7.3. $\log\left(\frac{Pr(\text{PMP}_{ij}≤c)}{Pr(PMP_{ij}>c)}\right)= a_c+\gamma_{30}\text{NSF}_{ij} + \gamma_{n}\text{VC}_{ij}+u_{0j}+r_{ij}$
+\begin{equation}
+\log\left(\frac{Pr(\text{PME}_{ij}≤c)}{Pr(PME_{ij}>c)}\right)= a_c+\gamma_{10}\text{NSF}_{ij} + \gamma_{n}\text{VC}_{ij}+u_{0j}+r_{ij}
+\end{equation}
+
+\begin{equation}
+\log\left(\frac{Pr(\text{PME}_{ij}≤c)}{Pr(PME_{ij}>c)}\right)= a_c+\gamma\text'_{10}\text{NSF}_{ij} + \gamma_{20}\text{PMP}_{ij}  +\gamma_{n}\text{VC}_{ij}+u_{0j}+r_{ij}
+\end{equation}
+
+\begin{equation}
+\log\left(\frac{Pr(\text{PMP}_{ij}≤c)}{Pr(PMP_{ij}>c)}\right)= a_c+\gamma_{30}\text{NSF}_{ij} + \gamma_{n}\text{VC}_{ij}+u_{0j}+r_{ij}
+\end{equation}
 
 * $\gamma\text'$ = Efecto directo
 * $\gamma_{30}\times\gamma_{20}$ = Efecto indirecto
 
-La formula numero 8 busca contrastar la octava hipótesis. Mediante la multiplicación entre $\gamma_{10}$ y $\gamma_{20}$ la formula expresa una interacción entre percepción meritocrática de los padres y el sentido de justicia en las notas, de modo tal que la fuerza transmisión de ideas meritocracias puede ser disminuida por experimentar injusticia.
+La formula numero 10 busca contrastar la $H_8$. Mediante la multiplicación entre $\gamma_{10}$ y $\gamma_{20}$ la formula expresa una interacción entre percepción meritocrática de los padres y el sentido de justicia en las notas, de modo tal que la fuerza transmisión de ideas meritocracias puede ser disminuida por experimentar injusticia.
 
-8. $\log\left(\frac{Pr(\text{PME}_{ij}≤c)}{Pr(PME_{ij}>c)}\right)= a_c+\gamma_{10}\text{PMP}_{ij}\times\gamma_{20}\text{SJ}_{ij} + \gamma_{n}\text{VC}_{ij}+u_{0j}+r_{ij}$
+\begin{equation}
+\log\left(\frac{Pr(\text{PME}_{ij}≤c)}{Pr(PME_{ij}>c)}\right)= a_c+\gamma_{10}\text{PMP}_{ij}\times\gamma_{20}\text{SJ}_{ij} + \gamma_{n}\text{VC}_{ij}+u_{0j}+r_{ij}
+\end{equation}
 
-La formula numero 9 busca contrastar la novena hipótesis. Mediante la multiplicación entre $\gamma_{10}$ y $\gamma_{01}$ la formula expresa una interacción entre la percepción meritocrática de los padres y la heterogeneidad socioeconomica de la escuela, de modo tal que la fuerza transmisión de ideas meritocracias puede ser disminuida por experimentar desigualdad.
+La formula numero 11 busca contrastar la $H_9$. Mediante la multiplicación entre $\gamma_{10}$ y $\gamma_{01}$ la formula expresa una interacción entre la percepción meritocrática de los padres y la heterogeneidad socioeconomica de la escuela, de modo tal que la fuerza transmisión de ideas meritocracias puede ser disminuida por experimentar desigualdad.
 
-9. $\log\left(\frac{Pr(\text{PME}_{ij}≤c)}{Pr(PME_{ij}>c)}\right)= a_c+\gamma_{10}\text{PMP}_{ij}\times\gamma_{01}\text{HSE}_{j} + \gamma_{n}\text{VC}_{ij}+u_{0j}+r_{ij}$
+\begin{equation}
+\log\left(\frac{Pr(\text{PME}_{ij}≤c)}{Pr(PME_{ij}>c)}\right)= a_c+\gamma_{10}\text{PMP}_{ij}\times\gamma_{01}\text{HSE}_{j} + \gamma_{n}\text{VC}_{ij}+u_{0j}+r_{ij}
+\end{equation}
 
-La formula numero 10 busca contrastar la décima hipótesis. Mediante la multiplicación entre $\gamma_{10}$ y $\gamma_{01}$ la formula expresa una interacción entre el nivel socioeconómico familiar y la heterogeneidad socioeconomica de la escuela, de modo tal que la sensación de injusticia en las notas puede ser potenciada para sujetos de bajo NSE en contextos diversos que pueden fomentar la discriminación.
+La formula numero 12 busca contrastar la $H_{10}$. Mediante la multiplicación entre $\gamma_{10}$ y $\gamma_{01}$ la formula expresa una interacción entre el nivel socioeconómico familiar y la heterogeneidad socioeconomica de la escuela, de modo tal que la sensación de injusticia en las notas puede ser potenciada para sujetos de bajo NSE en contextos diversos que pueden fomentar la discriminación.
 
-10. $\text{SJ}= a_c+\gamma_{10}\text{NSF}_{ij}\times\gamma_{01}\text{HSE}_{j} + \gamma_{n}\text{VC}_{ij}+u_{0j}+r_{ij}$
+\begin{equation}
+\text{SJ}= a_c+\gamma_{10}\text{NSF}_{ij}\times\gamma_{01}\text{HSE}_{j} + \gamma_{n}\text{VC}_{ij}+u_{0j}+r_{ij}
+\end{equation}
 
 La correlación intraclase (ICC) para una variable dependiente ordinal se calculará siguiendo a (Snijder and Bosker en @arfan_Ordinal_2017:
 
