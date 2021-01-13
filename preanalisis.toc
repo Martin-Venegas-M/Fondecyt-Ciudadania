@@ -1,8 +1,0 @@
-\contentsline {section}{\numberline {1}¿Se han recopilado ya datos para este estudio?}{1}{section.1}%
-\contentsline {section}{\numberline {2}¿Cuál es la pregunta principal o la hipótesis que se está probando en este estudio?}{2}{section.2}%
-\contentsline {section}{\numberline {3}Describa la(s) variable(s) clave(s) especificando cómo se medirán.}{2}{section.3}%
-\contentsline {section}{\numberline {4}Especifique exactamente qué análisis se realizará para examinar la pregunta / hipótesis principal}{3}{section.4}%
-\contentsline {section}{\numberline {5}¿Algún análisis secundario?}{4}{section.5}%
-\contentsline {section}{\numberline {6}¿Cuántas observaciones se recopilarán o que determinará el tamaño de la muestra? No es necesario justificar la decisión, pero sea preciso sobre cómo se determinará exactamente el número.}{4}{section.6}%
-\contentsline {section}{\numberline {7}¿Algo más que le gustaría inscribirse? (por ejemplo, exclusiones de datos, variables recopiladas con fines exploratorios, análisis inusuales previstos)}{5}{section.7}%
-\contentsline {section}{\numberline {8}Referencias}{5}{section.8}%
